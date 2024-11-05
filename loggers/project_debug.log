@@ -1,0 +1,11 @@
+
+INFO 2024-10-29 16:01:20,378 middlewares Endpoint: /, Method: GET, Response Status: 404, Duration: 2.02s
+WARNING 2024-10-29 16:01:20,378 log Not Found: /
+INFO 2024-10-29 16:05:07,629 middlewares Endpoint: /api/user/login/, Method: POST, Response Status: 401, Duration: 0.36s
+WARNING 2024-10-29 16:05:07,629 log Unauthorized: /api/user/login/
+INFO 2024-10-29 16:05:38,778 middlewares Endpoint: /api/user/login/, Method: POST, Response Status: 200, Duration: 0.47s
+INFO 2024-10-29 16:06:05,037 middlewares Endpoint: /api/user/detail/5/, Method: GET, Response Status: 200, Duration: 2.61s
+INFO 2024-10-29 16:06:06,374 middlewares Endpoint: /api/user/detail/5/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-10-29 16:07:14,550 middlewares Endpoint: /api/user/pass-key-activate/, Method: POST, Response Status: 200, Duration: 0.10s
+INFO 2024-10-29 16:07:16,221 middlewares Endpoint: /api/user/detail/5/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-11-05 05:47:15,138 autoreload Watching for file changes with StatReloader
