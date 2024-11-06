@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     "corsheaders",
-    "django_mysql",
+    # "django_mysql",
     
     #apps
     "profiles",
@@ -105,12 +105,12 @@ WSGI_APPLICATION = 'metatask.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
-        'NAME': 'meta18123211_metatask',
-        'USER': 'meta18123211_metatask',
-        'PASSWORD': 'MMJbx,,puOS{',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'metatask',  # Database name
+        'USER': 'postgres',  # PostgreSQL username
+        'PASSWORD': 'd2c2888fa6f788ddebd4',  # Database password
+        'HOST': 'metatask_metadb',  # PostgreSQL host (localhost or IP address)
+        'PORT': '5432',  # Default PostgreSQL port
     }
 }
 
