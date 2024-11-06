@@ -3,7 +3,6 @@ schedule
 Django
 djangorestframework
 djangorestframework-simplejwt
-mysql-connector-python
 dj-database-url
 django-cors-headers
 Pillow
