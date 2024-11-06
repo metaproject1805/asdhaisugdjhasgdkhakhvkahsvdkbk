@@ -1,5 +1,6 @@
 whitenoise
 schedule
+gunicorn
 PyMySQL
 Django
 djangorestframework
