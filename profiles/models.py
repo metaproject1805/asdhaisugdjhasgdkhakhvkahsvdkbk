@@ -48,7 +48,7 @@ class Profile(AbstractUser):
     active_ref = models.ManyToManyField("self", blank=True)
     pending_ref = models.ManyToManyField("self", blank=True)    
     username = models.CharField(verbose_name='Username', null=True, unique=True, max_length=50)
-    ref_by = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, blank=True, null=True, related_name="user_ref_by")
+    ref_by = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, blank=True, null=True, related_name="user_ref_by")
     email = models.EmailField(verbose_name='Email', max_length=50, unique=True)
     notification = models.ManyToManyField(UserNotification, blank=True)
     ref_code = models.CharField(max_length=50, blank=True)
