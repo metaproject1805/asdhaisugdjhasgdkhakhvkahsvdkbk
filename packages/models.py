@@ -97,9 +97,7 @@ class Packages(models.Model):
       self.layer = 10
       self.max_upgrade = True
 
-  # def save(self, *args, **kwargs):
-  #   self.investment_manager()
-  #   super().save(*args, **kwargs)
+    self.save()
     
     
   def __str__(self) -> str:

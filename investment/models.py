@@ -60,10 +60,8 @@ class Investment(models.Model):
       self.days_remaining = 1080
       self.level=7
 
-  # def save(self, *args, **kwargs):
-  #   self.investment_manager()
-  #   super().save(*args, **kwargs)
-    
+    self.save()
+   
     
   def __str__(self) -> str:
     return self.payment_status
