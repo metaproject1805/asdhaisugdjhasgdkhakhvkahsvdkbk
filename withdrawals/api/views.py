@@ -1,6 +1,7 @@
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import generics
 from rest_framework.response import Response
+from decimal import Decimal
 from rest_framework import status
 from ..models import Withdrawal
 from .serializers import WithdrawalCreateSerializer
@@ -21,17 +22,18 @@ class CreateWithdrawalView(generics.CreateAPIView):
     try:
       serializer.is_valid(raise_exception=True)
       amount = serializer._validated_data.get("amount")
-      # if int(amount) > user.balance:
-      #   notification = create_user_notification(
-      #     type="Info",
-      #     title="Withdrawal Failed",
-      #     message="Unfortunately, you do not have enough balance to complete your withdrawal. Please check your account and ensure you have sufficient funds."
-      #   )
-      #   user.notification.add(notification)
-      #   user.save()
-      #   return Response("you do not have enough balance. please try again later", status=status.HTTP_400_BAD_REQUEST)
+      
+      if int(amount) > user.balance:
+        notification = create_user_notification(
+          type="Info",
+          title="Withdrawal Failed",
+          message="Unfortunately, you do not have enough balance to complete your withdrawal. Please check your account and ensure you have sufficient funds."
+        )
+        user.notification.add(notification)
+        user.save()
+        return Response("you do not have enough balance. please try again later", status=status.HTTP_400_BAD_REQUEST)
       Withdrawal.objects.create(**serializer.validated_data, user=user)
-      user.balance -= amount
+      user.balance -= Decimal(amount)
       notification = create_user_notification(
         type="Info",
         title="Withdrawal Request Received",

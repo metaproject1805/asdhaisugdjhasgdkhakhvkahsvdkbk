@@ -9,9 +9,10 @@ class WithdrawalListSerializer(serializers.ModelSerializer):
 
 
 class AdminWithdrawalListSerializer(serializers.ModelSerializer):
+  username = serializers.CharField(source='user.username', read_only=True)
   class Meta:
     model = Withdrawal
-    fields = ["id", "wallet_address", "payment_status", "amount"]
+    fields = ["id", "wallet_address", "payment_status", "amount", "username"]
 
 
 class WithdrawalCreateSerializer(serializers.ModelSerializer):
