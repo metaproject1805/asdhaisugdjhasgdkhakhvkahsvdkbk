@@ -22,6 +22,9 @@ class CreateWithdrawalView(generics.CreateAPIView):
     try:
       serializer.is_valid(raise_exception=True)
       amount = serializer._validated_data.get("amount")
+      if amount is None:
+        # raise ValidationError({"amount": "This field is required."})
+        return Response("amount: This field is required.", status=status.HTTP_400_BAD_REQUEST)
       
       if int(amount) > user.balance:
         notification = create_user_notification(
@@ -33,7 +36,7 @@ class CreateWithdrawalView(generics.CreateAPIView):
         user.save()
         return Response("you do not have enough balance. please try again later", status=status.HTTP_400_BAD_REQUEST)
       Withdrawal.objects.create(**serializer.validated_data, user=user)
-      user.balance -= Decimal(amount)
+      user.balance -= Decimal(int(amount))
       notification = create_user_notification(
         type="Info",
         title="Withdrawal Request Received",
