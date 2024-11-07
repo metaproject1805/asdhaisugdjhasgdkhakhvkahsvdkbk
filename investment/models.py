@@ -38,7 +38,7 @@ class Investment(models.Model):
     elif self.duration == "30 Days":
       self.daily_earning = 1.3
       self.days_remaining = 30
-      self.level=3
+      self.level=2
     elif self.duration == "60 Days":
       self.earning = 2.00
       self.daily_earning = 60
