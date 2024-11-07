@@ -22,7 +22,7 @@ class Investment(models.Model):
   daily_earning = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
   payment_status = models.CharField(max_length=20, choices=PAYMENT_STATUS_CHOICES, default="Pending")
   wallet_email = models.EmailField(null=True, blank=True)
-  wallet_id = models.CharField(max_length=20, null=True, blank=True)
+  wallet_id = models.CharField(max_length=200, null=True, blank=True)
   days_remaining =  models.IntegerField(default=0)
   payment_slip = models.ImageField('image', upload_to="investments", validators=[file_validation], null=True)
   price = models.IntegerField()

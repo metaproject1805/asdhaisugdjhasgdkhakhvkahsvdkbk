@@ -26,7 +26,7 @@ class Packages(models.Model):
   earning_per_task = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
   payment_slip = models.ImageField('image', upload_to="packages", validators=[file_validation], null=True)
   wallet_email = models.EmailField(null=True, blank=True)
-  wallet_id = models.CharField(max_length=20, null=True, blank=True)
+  wallet_id = models.CharField(max_length=200, null=True, blank=True)
   price = models.IntegerField()
   daily_earning = models.IntegerField(default=0)
   days_remaining =  models.IntegerField(default=0)
