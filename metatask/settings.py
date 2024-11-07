@@ -32,6 +32,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "metatask.ibgyzs.easypanel.host", 
     "www.metatask.ibgyzs.easypanel.host", 
+    "metatask-backend.ibgyzs.easypanel.host", 
+    "www.metatask-backend.ibgyzs.easypanel.host", 
     "localhost:1805", 
     "localhost", 
     "metatask.site",
@@ -41,6 +43,7 @@ ALLOWED_HOSTS = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://metatask.ibgyzs.easypanel.host",
+    "https://metatask-backend.ibgyzs.easypanel.host",
     "https://metatask.site",
     "http://localhost:1805",
 ]
