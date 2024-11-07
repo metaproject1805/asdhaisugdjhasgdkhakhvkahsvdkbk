@@ -3,7 +3,6 @@ from rest_framework import serializers
 
 
 class TaskListSerializer(serializers.ModelSerializer):
-  file = serializers.FileField(use_url=True, read_only=True)
   class Meta:
     model = Task
     fields = ["id", "category", "file"]
