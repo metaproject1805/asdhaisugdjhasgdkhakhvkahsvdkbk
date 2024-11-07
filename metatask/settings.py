@@ -14,6 +14,7 @@ from pathlib import Path
 from os.path import join
 from datetime import timedelta
 import os
+import cloudinary
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -56,6 +57,21 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 
+cloudinary.config( 
+  cloud_name = "dwe58zkhv", 
+  api_key = "715688338274166", 
+  api_secret = "gfYwU8TwBTmf70moip6Co0s6MDI",
+  secure = True
+)
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
 
 # Application definition
 
@@ -85,6 +101,9 @@ INSTALLED_APPS = [
     "videocontent",
     "tasks",
     "withdrawals",
+
+    # must be placed last,
+    'django_cleanup.apps.CleanupConfig',
     
 ]
 
@@ -127,16 +146,16 @@ WSGI_APPLICATION = 'metatask.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'metatask',  # Database name
-        'USER': 'postgres',  # PostgreSQL username
-        'PASSWORD': 'd2c2888fa6f788ddebd4',  # Database password
-        'HOST': 'metatask_metadb',  # PostgreSQL host (localhost or IP address)
-        'PORT': '5432',  # Default PostgreSQL port
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'metatask',  # Database name
+#         'USER': 'postgres',  # PostgreSQL username
+#         'PASSWORD': 'd2c2888fa6f788ddebd4',  # Database password
+#         'HOST': 'metatask_metadb',  # PostgreSQL host (localhost or IP address)
+#         'PORT': '5432',  # Default PostgreSQL port
+#     }
+# }
 
 # WhiteNoise settings for static files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

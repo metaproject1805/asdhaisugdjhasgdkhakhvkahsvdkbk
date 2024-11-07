@@ -11,12 +11,13 @@ class Task(models.Model):
     ("football", "football"),
   ]
   category = models.CharField( choices=CATEGORY_CHOICES, max_length=50)
-  file = models.FileField(upload_to="files")
+  file = models.URLField(max_length=200, default="")
   watch_count = models.IntegerField(default=0)
   total_watch = models.IntegerField(default=100)
   
   def set_watch_count(self):
-    self.watch_count = self.total_watch
+    if self.watch_count >= self.total_watch:
+      self.delete()
 
   def save(self):
     self.set_watch_count()

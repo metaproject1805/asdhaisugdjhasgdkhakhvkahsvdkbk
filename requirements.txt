@@ -10,3 +10,5 @@ django-cors-headers
 Pillow
 psycopg2
 setuptools
+cloudinary
+django-cleanup

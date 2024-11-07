@@ -1,5 +1,6 @@
 from django.db import models
 from base.utils.validators import file_validation
+from cloudinary.models import CloudinaryField
 
 
 class Investment(models.Model):
@@ -24,7 +25,7 @@ class Investment(models.Model):
   wallet_email = models.EmailField(null=True, blank=True)
   wallet_id = models.CharField(max_length=200, null=True, blank=True)
   days_remaining =  models.IntegerField(default=0)
-  payment_slip = models.ImageField('image', upload_to="investments", validators=[file_validation], null=True)
+  payment_slip = CloudinaryField('image', validators=[file_validation], null=True)
   price = models.IntegerField()
   level = models.IntegerField(default=0, blank=True)
   is_withdrawable = models.BooleanField(default= False)

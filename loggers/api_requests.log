@@ -16,3 +16,309 @@ INFO 2024-11-06 02:46:55,203 autoreload Watching for file changes with StatReloa
 INFO 2024-11-06 02:47:53,388 autoreload Watching for file changes with StatReloader
 INFO 2024-11-06 02:48:13,285 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
 INFO 2024-11-06 02:48:15,025 autoreload Watching for file changes with StatReloader
+INFO 2024-11-07 12:18:53,412 autoreload Watching for file changes with StatReloader
+INFO 2024-11-07 12:19:06,631 autoreload C:\Users\Metatask\Documents\backend\tasks\api\views.py changed, reloading.
+INFO 2024-11-07 12:19:08,021 autoreload Watching for file changes with StatReloader
+INFO 2024-11-07 12:19:18,479 middlewares Endpoint: /, Method: GET, Response Status: 404, Duration: 0.34s
+WARNING 2024-11-07 12:19:18,479 log Not Found: /
+WARNING 2024-11-07 12:19:18,479 basehttp "GET / HTTP/1.1" 404 2291
+INFO 2024-11-07 12:19:18,579 middlewares Endpoint: /favicon.ico, Method: GET, Response Status: 404, Duration: 0.00s
+WARNING 2024-11-07 12:19:18,579 log Not Found: /favicon.ico
+WARNING 2024-11-07 12:19:18,579 basehttp "GET /favicon.ico HTTP/1.1" 404 2342
+INFO 2024-11-07 12:19:32,692 middlewares Endpoint: /api/tasks/task-create, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-11-07 12:19:32,692 log Not Found: /api/tasks/task-create
+WARNING 2024-11-07 12:19:32,692 basehttp "GET /api/tasks/task-create HTTP/1.1" 404 3721
+INFO 2024-11-07 12:19:40,075 basehttp "GET /api/tasks/task-list HTTP/1.1" 301 0
+ERROR 2024-11-07 12:19:40,218 log Internal Server Error: /api/tasks/task-list/
+Traceback (most recent call last):
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\Metatask\Documents\backend\tasks\api\views.py", line 18, in get_queryset
+    result_counter = user.active_package.daily_earning - user.video_watched_count
+AttributeError: 'AnonymousUser' object has no attribute 'active_package'
+INFO 2024-11-07 12:19:40,218 middlewares Endpoint: /api/tasks/task-list/, Method: GET, Response Status: 500, Duration: 0.14s
+ERROR 2024-11-07 12:19:40,218 basehttp "GET /api/tasks/task-list/ HTTP/1.1" 500 104680
+INFO 2024-11-07 12:19:53,021 autoreload C:\Users\Metatask\Documents\backend\tasks\api\views.py changed, reloading.
+INFO 2024-11-07 12:19:55,460 autoreload Watching for file changes with StatReloader
+INFO 2024-11-07 12:20:16,572 autoreload C:\Users\Metatask\Documents\backend\packages\api\views.py changed, reloading.
+INFO 2024-11-07 12:20:17,899 autoreload Watching for file changes with StatReloader
+INFO 2024-11-07 12:20:34,853 basehttp "GET /api/investments/investment-create HTTP/1.1" 301 0
+INFO 2024-11-07 12:20:35,103 middlewares Endpoint: /api/investments/investment-create/, Method: GET, Response Status: 401, Duration: 0.22s
+WARNING 2024-11-07 12:20:35,103 log Unauthorized: /api/investments/investment-create/
+WARNING 2024-11-07 12:20:35,103 basehttp "GET /api/investments/investment-create/ HTTP/1.1" 401 3854
+INFO 2024-11-07 12:20:36,524 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-11-07 12:20:36,531 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2024-11-07 12:20:36,539 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-11-07 12:20:36,583 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2024-11-07 12:20:36,657 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-11-07 12:20:36,665 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-11-07 12:20:36,713 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-11-07 12:20:36,761 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-11-07 12:20:36,785 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-11-07 12:20:36,831 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2024-11-07 12:20:36,897 basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2024-11-07 12:20:55,049 middlewares Endpoint: /api/ipackages/package-create/, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-11-07 12:20:55,049 log Not Found: /api/ipackages/package-create/
+WARNING 2024-11-07 12:20:55,049 basehttp "GET /api/ipackages/package-create/ HTTP/1.1" 404 3409
+INFO 2024-11-07 12:21:13,159 middlewares Endpoint: /api/packages/package-create/, Method: GET, Response Status: 405, Duration: 0.10s
+WARNING 2024-11-07 12:21:13,160 log Method Not Allowed: /api/packages/package-create/
+WARNING 2024-11-07 12:21:13,160 basehttp "GET /api/packages/package-create/ HTTP/1.1" 405 8740
+INFO 2024-11-07 12:21:28,019 middlewares Endpoint: /api/packages/package-create/, Method: POST, Response Status: 500, Duration: 0.21s
+ERROR 2024-11-07 12:21:28,019 log Internal Server Error: /api/packages/package-create/
+ERROR 2024-11-07 12:21:28,027 basehttp "POST /api/packages/package-create/ HTTP/1.1" 500 8784
+INFO 2024-11-07 12:21:57,302 autoreload C:\Users\Metatask\Documents\backend\packages\api\views.py changed, reloading.
+INFO 2024-11-07 12:21:58,966 autoreload Watching for file changes with StatReloader
+INFO 2024-11-07 12:23:39,220 middlewares Endpoint: /api/packages/package-create/, Method: GET, Response Status: 401, Duration: 0.09s
+WARNING 2024-11-07 12:23:39,220 log Unauthorized: /api/packages/package-create/
+WARNING 2024-11-07 12:23:39,220 basehttp "GET /api/packages/package-create/ HTTP/1.1" 401 3833
+INFO 2024-11-07 12:24:04,141 basehttp "GET /api/user/register HTTP/1.1" 301 0
+INFO 2024-11-07 12:24:04,190 middlewares Endpoint: /api/user/register/, Method: GET, Response Status: 405, Duration: 0.05s
+WARNING 2024-11-07 12:24:04,191 log Method Not Allowed: /api/user/register/
+WARNING 2024-11-07 12:24:04,191 basehttp "GET /api/user/register/ HTTP/1.1" 405 8196
+INFO 2024-11-07 12:24:13,438 middlewares Endpoint: /api/user/register/active-admin-register, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-11-07 12:24:13,438 log Not Found: /api/user/register/active-admin-register
+WARNING 2024-11-07 12:24:13,446 basehttp "GET /api/user/register/active-admin-register HTTP/1.1" 404 5273
+INFO 2024-11-07 12:24:28,350 basehttp "GET /api/user/register/active-super-user HTTP/1.1" 301 0
+INFO 2024-11-07 12:24:28,384 middlewares Endpoint: /api/user/register/active-super-user/, Method: GET, Response Status: 405, Duration: 0.03s
+WARNING 2024-11-07 12:24:28,384 log Method Not Allowed: /api/user/register/active-super-user/
+WARNING 2024-11-07 12:24:28,384 basehttp "GET /api/user/register/active-super-user/ HTTP/1.1" 405 8442
+INFO 2024-11-07 12:24:45,159 middlewares Endpoint: /api/user/register/active-super-user/, Method: POST, Response Status: 400, Duration: 0.07s
+WARNING 2024-11-07 12:24:45,159 log Bad Request: /api/user/register/active-super-user/
+WARNING 2024-11-07 12:24:45,167 basehttp "POST /api/user/register/active-super-user/ HTTP/1.1" 400 8441
+INFO 2024-11-07 12:25:07,353 middlewares Endpoint: /api/user/register/active-super-user/, Method: POST, Response Status: 200, Duration: 0.44s
+INFO 2024-11-07 12:25:07,361 basehttp "POST /api/user/register/active-super-user/ HTTP/1.1" 200 8444
+INFO 2024-11-07 12:25:16,580 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2024-11-07 12:25:16,596 middlewares Endpoint: /admin/, Method: GET, Response Status: 302, Duration: 0.01s
+INFO 2024-11-07 12:25:16,596 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-11-07 12:25:16,681 middlewares Endpoint: /admin/login/, Method: GET, Response Status: 200, Duration: 0.08s
+INFO 2024-11-07 12:25:16,681 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2210
+INFO 2024-11-07 12:25:17,945 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2024-11-07 12:25:17,945 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2024-11-07 12:25:17,952 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2024-11-07 12:25:17,967 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-11-07 12:25:18,024 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2024-11-07 12:25:18,032 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2024-11-07 12:25:18,069 basehttp "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-11-07 12:25:18,069 basehttp "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-11-07 12:25:31,268 middlewares Endpoint: /admin/login/, Method: POST, Response Status: 302, Duration: 0.23s
+INFO 2024-11-07 12:25:31,269 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-11-07 12:25:31,356 middlewares Endpoint: /admin/, Method: GET, Response Status: 200, Duration: 0.07s
+INFO 2024-11-07 12:25:31,356 basehttp "GET /admin/ HTTP/1.1" 200 7463
+INFO 2024-11-07 12:25:31,404 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2024-11-07 12:25:31,420 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-11-07 12:25:31,420 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-11-07 12:25:31,441 basehttp "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-11-07 12:25:41,141 middlewares Endpoint: /admin/packages/packages/, Method: GET, Response Status: 200, Duration: 0.07s
+INFO 2024-11-07 12:25:41,141 basehttp "GET /admin/packages/packages/ HTTP/1.1" 200 7737
+INFO 2024-11-07 12:25:41,199 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-07 12:25:41,202 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-07 12:25:41,206 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2024-11-07 12:25:41,219 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-11-07 12:25:41,257 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2024-11-07 12:25:41,289 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2024-11-07 12:25:41,289 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2024-11-07 12:25:41,321 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2024-11-07 12:25:41,343 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+INFO 2024-11-07 12:25:41,353 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-11-07 12:25:41,421 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-11-07 12:25:41,449 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-11-07 12:25:44,532 middlewares Endpoint: /admin/packages/packages/add/, Method: GET, Response Status: 200, Duration: 0.16s
+INFO 2024-11-07 12:25:44,532 basehttp "GET /admin/packages/packages/add/ HTTP/1.1" 200 14356
+INFO 2024-11-07 12:25:44,590 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2024-11-07 12:25:44,601 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2024-11-07 12:25:44,605 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-07 12:25:44,606 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-07 12:25:44,622 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2024-11-07 12:25:44,632 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-11-07 12:26:03,858 middlewares Endpoint: /admin/packages/packages/add/, Method: POST, Response Status: 200, Duration: 0.06s
+INFO 2024-11-07 12:26:03,858 basehttp "POST /admin/packages/packages/add/ HTTP/1.1" 200 14532
+INFO 2024-11-07 12:26:03,908 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.00s
+INFO 2024-11-07 12:26:03,913 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-07 12:26:09,322 middlewares Endpoint: /admin/packages/packages/add/, Method: POST, Response Status: 200, Duration: 0.06s
+INFO 2024-11-07 12:26:09,330 basehttp "POST /admin/packages/packages/add/ HTTP/1.1" 200 14538
+INFO 2024-11-07 12:26:09,371 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-07 12:26:09,371 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+ERROR 2024-11-07 12:26:18,044 log Internal Server Error: /admin/packages/packages/add/
+Traceback (most recent call last):
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 1586, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 1099, in save_model
+    obj.save()
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1358, in as_sql
+    value_rows = [
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1310, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\models.py", line 112, in pre_save
+    instance_value = uploader.upload_resource(value, **options)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\uploader.py", line 64, in upload_resource
+    result = upload_func(file, **options)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\uploader.py", line 45, in upload
+    return call_cacheable_api("upload", params, file=file, **options)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\uploader.py", line 462, in call_cacheable_api
+    result = call_api(action, params, http_headers, return_error, unsigned, file, timeout, **options)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\uploader.py", line 527, in call_api
+    raise Error(result["error"]["message"])
+cloudinary.exceptions.Error: Invalid Signature d4e49f2c692f3fedb87beaee92eca7d5c6f7e843. String to sign - 'timestamp=1730978774&type=upload'.
+INFO 2024-11-07 12:26:18,044 middlewares Endpoint: /admin/packages/packages/add/, Method: POST, Response Status: 500, Duration: 3.13s
+ERROR 2024-11-07 12:26:18,053 basehttp "POST /admin/packages/packages/add/ HTTP/1.1" 500 208908
+INFO 2024-11-07 12:29:55,357 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-07 12:29:56,937 autoreload Watching for file changes with StatReloader
+INFO 2024-11-07 12:30:02,646 middlewares Endpoint: /admin/packages/packages/add/, Method: GET, Response Status: 200, Duration: 0.27s
+INFO 2024-11-07 12:30:02,661 basehttp "GET /admin/packages/packages/add/ HTTP/1.1" 200 14356
+INFO 2024-11-07 12:30:02,734 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.00s
+INFO 2024-11-07 12:30:02,750 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+ERROR 2024-11-07 12:30:46,199 log Internal Server Error: /admin/packages/packages/add/
+Traceback (most recent call last):
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 1586, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\contrib\admin\options.py", line 1099, in save_model
+    obj.save()
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\base.py", line 776, in save_base
+    updated = self._save_table(
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\base.py", line 919, in _do_insert
+    return manager._insert(
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1358, in as_sql
+    value_rows = [
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\django\db\models\sql\compiler.py", line 1310, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\models.py", line 112, in pre_save
+    instance_value = uploader.upload_resource(value, **options)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\uploader.py", line 64, in upload_resource
+    result = upload_func(file, **options)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\uploader.py", line 45, in upload
+    return call_cacheable_api("upload", params, file=file, **options)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\uploader.py", line 462, in call_cacheable_api
+    result = call_api(action, params, http_headers, return_error, unsigned, file, timeout, **options)
+  File "C:\Users\Metatask\.pyenv\pyenv-win\versions\3.9.13\lib\site-packages\cloudinary\uploader.py", line 527, in call_api
+    raise Error(result["error"]["message"])
+cloudinary.exceptions.Error: Invalid cloud_name metatask
+INFO 2024-11-07 12:30:46,199 middlewares Endpoint: /admin/packages/packages/add/, Method: POST, Response Status: 500, Duration: 25.97s
+ERROR 2024-11-07 12:30:46,199 basehttp "POST /admin/packages/packages/add/ HTTP/1.1" 500 208337
+INFO 2024-11-07 12:31:19,738 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-07 12:31:20,921 autoreload Watching for file changes with StatReloader
+INFO 2024-11-07 12:31:46,160 middlewares Endpoint: /admin/packages/packages/add/, Method: POST, Response Status: 302, Duration: 17.75s
+INFO 2024-11-07 12:31:46,160 basehttp "POST /admin/packages/packages/add/ HTTP/1.1" 302 0
+INFO 2024-11-07 12:31:46,318 middlewares Endpoint: /admin/packages/packages/1/change/, Method: GET, Response Status: 200, Duration: 0.15s
+INFO 2024-11-07 12:31:46,318 basehttp "GET /admin/packages/packages/1/change/ HTTP/1.1" 200 15008
+INFO 2024-11-07 12:31:46,374 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.00s
+INFO 2024-11-07 12:31:46,374 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-07 12:31:46,419 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-11-07 12:33:12,138 middlewares Endpoint: /admin/tasks/task/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-11-07 12:33:12,138 basehttp "GET /admin/tasks/task/ HTTP/1.1" 200 7697
+INFO 2024-11-07 12:33:12,184 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-07 12:33:12,184 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-07 12:33:14,412 middlewares Endpoint: /admin/tasks/task/add/, Method: GET, Response Status: 200, Duration: 0.06s
+INFO 2024-11-07 12:33:14,412 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 200 10141
+INFO 2024-11-07 12:33:14,448 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.00s
+INFO 2024-11-07 12:33:14,453 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-07 12:39:19,062 middlewares Endpoint: /admin/tasks/task/add/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-11-07 12:39:19,062 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 200 10141
+INFO 2024-11-07 12:39:19,103 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-07 12:39:19,103 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-07 13:45:10,432 middlewares Endpoint: /admin/tasks/task/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-11-07 13:45:10,432 basehttp "GET /admin/tasks/task/ HTTP/1.1" 200 7697
+INFO 2024-11-07 13:45:10,481 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.00s
+INFO 2024-11-07 13:45:10,481 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-07 13:45:18,341 middlewares Endpoint: /admin/packages/packages/, Method: GET, Response Status: 200, Duration: 0.09s
+INFO 2024-11-07 13:45:18,341 basehttp "GET /admin/packages/packages/ HTTP/1.1" 200 8892
+INFO 2024-11-07 13:45:18,376 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.00s
+INFO 2024-11-07 13:45:18,384 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-07 13:45:24,102 middlewares Endpoint: /admin/packages/packages/, Method: POST, Response Status: 200, Duration: 0.05s
+INFO 2024-11-07 13:45:24,102 basehttp "POST /admin/packages/packages/ HTTP/1.1" 200 7839
+INFO 2024-11-07 13:45:24,167 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-11-07 13:45:25,550 middlewares Endpoint: /admin/packages/packages/, Method: POST, Response Status: 302, Duration: 0.04s
+INFO 2024-11-07 13:45:25,550 basehttp "POST /admin/packages/packages/ HTTP/1.1" 302 0
+INFO 2024-11-07 13:45:25,594 middlewares Endpoint: /admin/packages/packages/, Method: GET, Response Status: 200, Duration: 0.04s
+INFO 2024-11-07 13:45:25,594 basehttp "GET /admin/packages/packages/ HTTP/1.1" 200 7875
+INFO 2024-11-07 13:45:25,633 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-07 13:45:25,641 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325

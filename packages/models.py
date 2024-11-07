@@ -1,5 +1,6 @@
 from django.db import models
 from base.utils.validators import file_validation
+from cloudinary.models import CloudinaryField
 
 
 class Packages(models.Model):
@@ -24,7 +25,7 @@ class Packages(models.Model):
   level = models.CharField(choices=LEVEL_CHOICES, max_length=20)
   payment_status = models.CharField(max_length=20, choices=PAYMENT_STATUS_CHOICES, default="Pending")
   earning_per_task = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
-  payment_slip = models.ImageField('image', upload_to="packages", validators=[file_validation], null=True)
+  payment_slip = CloudinaryField('image', validators=[file_validation], null=True)
   wallet_email = models.EmailField(null=True, blank=True)
   wallet_id = models.CharField(max_length=200, null=True, blank=True)
   price = models.IntegerField()
