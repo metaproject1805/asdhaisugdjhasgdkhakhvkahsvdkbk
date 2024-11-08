@@ -151,11 +151,22 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'metatask',  # Database name
         'USER': 'postgres',  # PostgreSQL username
-        'PASSWORD': 'd2c2888fa6f788ddebd4',  # Database password
-        'HOST': 'metatask_metadb',  # PostgreSQL host (localhost or IP address)
+        'PASSWORD': '3f533a950983af8274ef',  # Database password
+        'HOST': 'metatask_metataskdb',  # PostgreSQL host (localhost or IP address)
         'PORT': '5432',  # Default PostgreSQL port
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'metatask',  # Database name
+#         'USER': 'postgres',  # PostgreSQL username
+#         'PASSWORD': 'd2c2888fa6f788ddebd4',  # Database password
+#         'HOST': 'metatask_metadb',  # PostgreSQL host (localhost or IP address)
+#         'PORT': '5432',  # Default PostgreSQL port
+#     }
+# }
 
 # WhiteNoise settings for static files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
