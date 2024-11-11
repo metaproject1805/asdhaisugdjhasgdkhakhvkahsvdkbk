@@ -11,6 +11,8 @@ from base.utils.functions import remove_five_percent, create_user_notification
 from rest_framework.exceptions import ValidationError
 from withdrawals.models import Withdrawal
 from withdrawals.api.serializers import AdminWithdrawalListSerializer
+from profiles.models import Profile
+from profiles.api.serializers import ProfileSerializer
 
 
 class UserCountView(APIView):
@@ -47,6 +49,68 @@ class AllUserView(generics.ListAPIView):
   serializer_class = AdminProfilePackageSerializer
   permission_classes = [IsAdminUser]
   queryset = Profile.objects.all().order_by("-pk")
+
+
+class DailyInvestmentUpdate(generics.ListAPIView):
+  serializer_class = ProfileSerializer
+  # permission_classes = [IsAdminUser]
+  # queryset = Profile.objects.filter(investment__payment_status="Active")
+
+  def get_queryset(self, *args, **kwargs):
+    users_with_an_active_investment = Profile.objects.filter(investment__payment_status="Active")
+    for user in users_with_an_active_investment:
+      if user.investment.days_remaining <= 0:
+        user.balance += user.investment.price
+        user_notification=create_user_notification(
+          type="Success", 
+          title="Package Expiration Notice", 
+          message="""
+          Your investment package has expired. Your capital has been added to your balance, and the investment package has been deleted.
+          you can now withdraw your capital. Thank you
+          """
+          )
+        user.notification.add(user_notification)
+        user.investment.delete()
+        user.investment = None
+        user.save()
+        
+      else:
+        user.investment.days_remaining -= 1
+        user.balance += user.investment.daily_earning
+        user.investment.save()
+        user.save()
+    return users_with_an_active_investment
+
+class DailyUserUpdate(generics.ListAPIView):
+  serializer_class = ProfileSerializer
+  # permission_classes = [IsAdminUser]
+  # queryset = Profile.objects.filter(investment__payment_status="Active")
+
+  def get_queryset(self, *args, **kwargs):
+    users_with_an_active_package = Profile.objects.filter(active_package__payment_status="Active")
+    for user in users_with_an_active_package:
+      if user.active_package.days_remaining <= 0:
+        user.balance += user.active_package.price
+        user_notification=create_user_notification(
+          type="Success", 
+          title="Package Expiration Notice", 
+          message="""
+          Your investment package has expired. Your capital has been added to your balance, and the investment package has been deleted.
+          you can now withdraw your capital. Thank you
+          """
+          )
+        user.notification.add(user_notification)
+        user.active_package.delete()
+        user.investment = None
+        user.save()
+        
+      else:
+        user.active_package.days_remaining -= 1
+        user.video_watched_count = 0
+        user.video_watched.clear()
+        user.active_package.save()
+        user.save()
+    return users_with_an_active_package
 
 
 class AllWithdrawalView(generics.ListAPIView):
