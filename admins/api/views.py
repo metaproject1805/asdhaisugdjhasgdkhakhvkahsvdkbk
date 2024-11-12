@@ -51,12 +51,12 @@ class AllUserView(generics.ListAPIView):
   queryset = Profile.objects.all().order_by("-pk")
 
 
-class DailyInvestmentUpdate(generics.ListAPIView):
+class DailyInvestmentUpdate(APIView):
   serializer_class = ProfileSerializer
   # permission_classes = [IsAdminUser]
   # queryset = Profile.objects.filter(investment__payment_status="Active")
 
-  def get_queryset(self, *args, **kwargs):
+  def get(self, *args, **kwargs):
     users_with_an_active_investment = Profile.objects.filter(investment__payment_status="Active")
     for user in users_with_an_active_investment:
       if user.investment.days_remaining <= 0:
@@ -79,14 +79,14 @@ class DailyInvestmentUpdate(generics.ListAPIView):
         user.balance += user.investment.daily_earning
         user.investment.save()
         user.save()
-    return users_with_an_active_investment
+    return Response("Investment Updated", status=200)
 
-class DailyUserUpdate(generics.ListAPIView):
+class DailyUserUpdate(APIView):
   serializer_class = ProfileSerializer
   # permission_classes = [IsAdminUser]
   # queryset = Profile.objects.filter(investment__payment_status="Active")
 
-  def get_queryset(self, *args, **kwargs):
+  def get(self, *args, **kwargs):
     users_with_an_active_package = Profile.objects.filter(active_package__payment_status="Active")
     for user in users_with_an_active_package:
       if user.active_package.days_remaining <= 0:
@@ -110,7 +110,7 @@ class DailyUserUpdate(generics.ListAPIView):
         user.video_watched.clear()
         user.active_package.save()
         user.save()
-    return users_with_an_active_package
+    return Response("User Updated", status=200)
 
 
 class AllWithdrawalView(generics.ListAPIView):
