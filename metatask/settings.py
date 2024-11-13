@@ -27,30 +27,30 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-g0ww$rrq4y7jlnygg-hl(fwcna$w&s8as1&2h$7h&5+_gtl$f6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-# DEBUG = True
+# DEBUG = False
+DEBUG = True
 
 # ALLOWED_HOSTS = ["*"]
-ALLOWED_HOSTS = [
-    "metatask.ibgyzs.easypanel.host", 
-    "www.metatask.ibgyzs.easypanel.host", 
-    "metatask-backend.ibgyzs.easypanel.host", 
-    "www.metatask-backend.ibgyzs.easypanel.host", 
-    "localhost:1805", 
-    "localhost", 
-    "metatask.site",
-    "www.metatask.site",
-    ]
+# ALLOWED_HOSTS = [
+#     "metatask.ibgyzs.easypanel.host", 
+#     "www.metatask.ibgyzs.easypanel.host", 
+#     "metatask-backend.ibgyzs.easypanel.host", 
+#     "www.metatask-backend.ibgyzs.easypanel.host", 
+#     "localhost:1805", 
+#     "localhost", 
+#     "metatask.site",
+#     "www.metatask.site",
+#     ]
 
 
-CORS_ALLOWED_ORIGINS = [
-    "https://metatask.ibgyzs.easypanel.host",
-    "https://metatask-backend.ibgyzs.easypanel.host",
-    "https://metatask.site",
-    "http://localhost:1805",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://metatask.ibgyzs.easypanel.host",
+#     "https://metatask-backend.ibgyzs.easypanel.host",
+#     "https://metatask.site",
+#     "http://localhost:1805",
+# ]
 
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'https://metatask-backend.ibgyzs.easypanel.host',
