@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-g0ww$rrq4y7jlnygg-hl(fwcna$w&s8as1&2h$7h&5+_gtl$f6
 # DEBUG = False
 DEBUG = True
 
-# ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*"]
 # ALLOWED_HOSTS = [
 #     "metatask.ibgyzs.easypanel.host", 
 #     "www.metatask.ibgyzs.easypanel.host", 
