@@ -322,3 +322,4 @@ INFO 2024-11-07 13:45:25,594 middlewares Endpoint: /admin/packages/packages/, Me
 INFO 2024-11-07 13:45:25,594 basehttp "GET /admin/packages/packages/ HTTP/1.1" 200 7875
 INFO 2024-11-07 13:45:25,633 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
 INFO 2024-11-07 13:45:25,641 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-14 10:35:25,291 autoreload Watching for file changes with StatReloader
