@@ -30,21 +30,21 @@ SECRET_KEY = 'django-insecure-g0ww$rrq4y7jlnygg-hl(fwcna$w&s8as1&2h$7h&5+_gtl$f6
 DEBUG = False
 # DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
-# ALLOWED_HOSTS = [
-#     "metatask.ibgyzs.easypanel.host", 
-#     "www.metatask.ibgyzs.easypanel.host", 
-#     "metatask-backend.ibgyzs.easypanel.host", 
-#     "www.metatask-backend.ibgyzs.easypanel.host", 
-#     ]
+# ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "metatask.ibgyzs.easypanel.host", 
+    "www.metatask.ibgyzs.easypanel.host", 
+    "metatask-backend.ibgyzs.easypanel.host", 
+    "www.metatask-backend.ibgyzs.easypanel.host", 
+    ]
 
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://metatask.ibgyzs.easypanel.host",
-#     "https://metatask-backend.ibgyzs.easypanel.host",
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://metatask.ibgyzs.easypanel.host",
+    "https://metatask-backend.ibgyzs.easypanel.host",
+]
 
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'https://metatask-backend.ibgyzs.easypanel.host',
