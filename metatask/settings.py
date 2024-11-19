@@ -134,26 +134,32 @@ WSGI_APPLICATION = 'metatask.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'metatask',  # Database name
-#         'USER': 'postgres',  # PostgreSQL username
-#         'PASSWORD': '3f533a950983af8274ef',  # Database password
-#         'HOST': 'metatask_metataskdb',  # PostgreSQL host (localhost or IP address)
-#         'PORT': '5432',  # Default PostgreSQL port
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',  # Database engine (default: SQLite)
-        'NAME': BASE_DIR / 'db.sqlite3',         # Path to the database file
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'metatask',  # Database name
+        'USER': 'postgres',  # PostgreSQL username
+        'PASSWORD': '3f533a950983af8274ef',  # Database password
+        'HOST': 'metatask_metataskdb',  # PostgreSQL host (localhost or IP address)
+        'PORT': '5432',  # Default PostgreSQL port
     }
 }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',  # Database engine (default: SQLite)
+#         'NAME': BASE_DIR / 'db.sqlite3',         # Path to the database file
+#     }
+# }
+
 # WhiteNoise settings for static files
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STORAGES = {
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    },
+}
+
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Password validation
