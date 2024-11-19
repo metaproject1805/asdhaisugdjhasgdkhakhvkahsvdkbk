@@ -501,3 +501,33 @@ INFO 2024-11-19 08:21:28,079 middlewares Endpoint: /admin/tasks/task/add/, Metho
 INFO 2024-11-19 08:21:28,081 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 200 10908
 INFO 2024-11-19 08:21:28,127 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
 INFO 2024-11-19 08:21:28,128 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-19 09:31:08,771 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 09:31:21,778 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 09:31:23,692 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 09:31:24,611 middlewares Endpoint: /admin/tasks/task/add/, Method: GET, Response Status: 200, Duration: 0.36s
+INFO 2024-11-19 09:31:24,613 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 200 10705
+INFO 2024-11-19 09:31:25,047 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-11-19 09:31:25,052 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-19 09:31:26,626 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2024-11-19 09:31:26,631 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2024-11-19 09:31:26,632 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2024-11-19 09:31:26,702 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2024-11-19 09:31:26,703 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2024-11-19 09:31:26,704 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+INFO 2024-11-19 09:31:26,732 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-11-19 09:31:26,742 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2024-11-19 09:31:26,779 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-11-19 09:31:26,780 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2024-11-19 09:31:26,798 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-11-19 09:31:26,811 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2024-11-19 09:31:26,826 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2024-11-19 09:31:26,911 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-11-19 09:31:26,945 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2024-11-19 09:31:26,960 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2024-11-19 09:31:26,977 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-11-19 09:31:27,026 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-11-19 09:31:27,088 basehttp "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-11-19 09:31:27,096 basehttp "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-11-19 09:31:27,104 basehttp "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-11-19 09:32:01,539 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 09:32:03,348 autoreload Watching for file changes with StatReloader
