@@ -212,6 +212,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # Additional directories where Django will look for static files
 STATICFILES_DIRS = [
     BASE_DIR / 'static',  # This is where you can store your custom static files
+    BASE_DIR / 'staticfiles',  # This is where you can store your custom static files
 ]
 
 # Media files (uploaded files)
