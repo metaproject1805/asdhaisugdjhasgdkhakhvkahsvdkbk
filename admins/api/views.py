@@ -101,7 +101,7 @@ class DailyUserUpdate(APIView):
           )
         user.notification.add(user_notification)
         user.active_package.delete()
-        user.investment = None
+        user.active_package = None
         user.save()
         
       else:

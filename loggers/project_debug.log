@@ -324,3 +324,98 @@ INFO 2024-11-07 13:45:25,594 basehttp "GET /admin/packages/packages/ HTTP/1.1" 2
 INFO 2024-11-07 13:45:25,633 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
 INFO 2024-11-07 13:45:25,641 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
 INFO 2024-11-14 10:35:25,291 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 03:48:22,355 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 03:48:46,466 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 03:48:56,519 middlewares Endpoint: /admin/packages/packages/add/, Method: GET, Response Status: 200, Duration: 0.85s
+INFO 2024-11-19 03:48:56,532 basehttp "GET /admin/packages/packages/add/ HTTP/1.1" 200 15123
+INFO 2024-11-19 03:48:56,769 basehttp "GET /static/admin/css/forms.1d89ec6432f5.css HTTP/1.1" 200 2184
+INFO 2024-11-19 03:48:56,781 basehttp "GET /static/admin/css/nav_sidebar.0fd434145f4d.css HTTP/1.1" 200 673
+INFO 2024-11-19 03:48:57,101 basehttp "GET /static/admin/css/base.1f418065fc2c.css HTTP/1.1" 200 4649
+INFO 2024-11-19 03:48:57,113 basehttp "GET /static/admin/css/responsive.b128bdf0edef.css HTTP/1.1" 200 3389
+INFO 2024-11-19 03:48:57,285 basehttp "GET /static/admin/css/widgets.694d845b2cb1.css HTTP/1.1" 200 2368
+INFO 2024-11-19 03:48:57,374 basehttp "GET /static/admin/js/vendor/jquery/jquery.min.dc5e7f18c8d3.js HTTP/1.1" 200 30879
+INFO 2024-11-19 03:48:57,398 basehttp "GET /static/admin/js/actions.3edba334d0a4.js HTTP/1.1" 200 1874
+INFO 2024-11-19 03:48:57,428 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.b4d76b6aaf0b.js HTTP/1.1" 200 1571
+INFO 2024-11-19 03:48:57,464 basehttp "GET /static/admin/js/jquery.init.b7781a0897fc.js HTTP/1.1" 200 236
+INFO 2024-11-19 03:48:57,490 basehttp "GET /static/admin/css/fonts.168bab448fee.css HTTP/1.1" 200 189
+INFO 2024-11-19 03:48:57,616 basehttp "GET /static/admin/js/urlify.25cc3eac8123.js HTTP/1.1" 200 2581
+INFO 2024-11-19 03:48:57,653 basehttp "GET /static/admin/js/prepopulate.bd2361dfd64d.js HTTP/1.1" 200 536
+INFO 2024-11-19 03:48:57,888 basehttp "GET /static/admin/js/core.ccd84108ec57.js HTTP/1.1" 200 1505
+INFO 2024-11-19 03:48:58,005 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.min.b0439563a5d3.js HTTP/1.1" 200 37609
+INFO 2024-11-19 03:48:58,078 basehttp "GET /static/admin/js/prepopulate_init.e056047b7a7e.js HTTP/1.1" 200 267
+INFO 2024-11-19 03:48:58,218 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.06s
+INFO 2024-11-19 03:48:58,332 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-19 03:48:58,396 basehttp "GET /static/admin/js/nav_sidebar.7605597ddf52.js HTTP/1.1" 200 412
+INFO 2024-11-19 03:48:58,431 basehttp "GET /static/admin/js/change_form.9d8ca4f96b75.js HTTP/1.1" 200 322
+INFO 2024-11-19 03:48:58,462 basehttp "GET /static/admin/img/icon-addlink.d519b3bab011.svg HTTP/1.1" 200 206
+INFO 2024-11-19 03:48:58,532 basehttp "GET /static/admin/fonts/Roboto-Regular-webfont.35b07eb2f871.woff HTTP/1.1" 200 85876
+INFO 2024-11-19 03:48:58,540 basehttp "GET /static/admin/fonts/Roboto-Light-webfont.c73eb1ceba33.woff HTTP/1.1" 200 85692
+INFO 2024-11-19 03:48:58,549 basehttp "GET /static/admin/fonts/Roboto-Bold-webfont.50d75e48e0a3.woff HTTP/1.1" 200 86184
+INFO 2024-11-19 03:48:58,733 middlewares Endpoint: /favicon.ico, Method: GET, Response Status: 404, Duration: 0.00s
+WARNING 2024-11-19 03:48:58,737 log Not Found: /favicon.ico
+WARNING 2024-11-19 03:48:58,741 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2024-11-19 03:50:24,102 middlewares Endpoint: /api/admin/daily-investment-update, Method: GET, Response Status: 404, Duration: 0.00s
+WARNING 2024-11-19 03:50:24,147 log Not Found: /api/admin/daily-investment-update
+WARNING 2024-11-19 03:50:24,165 basehttp "GET /api/admin/daily-investment-update HTTP/1.1" 404 179
+INFO 2024-11-19 03:50:54,194 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 03:50:57,901 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 03:50:59,352 middlewares Endpoint: /api/admin/daily-investment-update, Method: GET, Response Status: 404, Duration: 0.29s
+WARNING 2024-11-19 03:50:59,354 log Not Found: /api/admin/daily-investment-update
+WARNING 2024-11-19 03:50:59,356 basehttp "GET /api/admin/daily-investment-update HTTP/1.1" 404 3421
+INFO 2024-11-19 03:51:26,682 middlewares Endpoint: /api/admins/daily-investment-update, Method: GET, Response Status: 200, Duration: 0.10s
+INFO 2024-11-19 03:51:26,684 basehttp "GET /api/admins/daily-investment-update HTTP/1.1" 200 5428
+INFO 2024-11-19 03:51:30,206 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-11-19 03:51:30,209 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-11-19 03:51:30,218 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2024-11-19 03:51:30,220 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-11-19 03:51:30,220 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2024-11-19 03:51:30,230 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-11-19 03:51:30,233 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-11-19 03:51:30,249 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-11-19 03:51:30,251 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2024-11-19 03:51:30,260 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-11-19 03:51:30,265 basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2024-11-19 03:51:45,848 middlewares Endpoint: /api/admins/daily-user-update, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-11-19 03:51:45,849 basehttp "GET /api/admins/daily-user-update HTTP/1.1" 200 5344
+INFO 2024-11-19 03:52:09,361 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 03:52:12,395 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 03:52:13,018 middlewares Endpoint: /api/admins/daily-user-update, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-11-19 03:52:13,020 basehttp "GET /api/admins/daily-user-update HTTP/1.1" 200 5474
+INFO 2024-11-19 03:52:13,064 basehttp "GET /static/rest_framework/css/bootstrap.min.77017a69879a.css HTTP/1.1" 200 19646
+INFO 2024-11-19 03:52:13,077 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css HTTP/1.1" 200 1268
+INFO 2024-11-19 03:52:13,090 basehttp "GET /static/rest_framework/css/prettify.a987f72342ee.css HTTP/1.1" 200 390
+INFO 2024-11-19 03:52:13,105 basehttp "GET /static/rest_framework/css/default.789dfb5732d7.css HTTP/1.1" 200 612
+INFO 2024-11-19 03:52:13,121 basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.dc5e7f18c8d3.js HTTP/1.1" 200 30879
+INFO 2024-11-19 03:52:13,149 basehttp "GET /static/rest_framework/js/ajax-form.0ea6e6052ab5.js HTTP/1.1" 200 1540
+INFO 2024-11-19 03:52:13,223 basehttp "GET /static/rest_framework/js/csrf.969930007329.js HTTP/1.1" 200 787
+INFO 2024-11-19 03:52:13,622 basehttp "GET /static/rest_framework/js/bootstrap.min.2f34b630ffe3.js HTTP/1.1" 200 10896
+INFO 2024-11-19 03:52:13,705 basehttp "GET /static/rest_framework/js/prettify-min.709bfcc456c6.js HTTP/1.1" 200 6025
+INFO 2024-11-19 03:52:13,841 basehttp "GET /static/rest_framework/img/grid.a4b938cf382b.png HTTP/1.1" 200 1458
+INFO 2024-11-19 03:52:14,021 basehttp "GET /static/rest_framework/js/default.5b08897dbdc3.js HTTP/1.1" 200 571
+INFO 2024-11-19 03:52:35,874 middlewares Endpoint: /api/admins/daily-user-update, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-19 03:52:35,877 basehttp "GET /api/admins/daily-user-update HTTP/1.1" 200 5474
+INFO 2024-11-19 03:53:05,504 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 03:53:08,251 autoreload Watching for file changes with StatReloader
+ERROR 2024-11-19 03:53:12,537 exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2024-11-19 03:53:12,586 log Bad Request: /api/admins/daily-user-update
+WARNING 2024-11-19 03:53:12,602 basehttp "GET /api/admins/daily-user-update HTTP/1.1" 400 143
+INFO 2024-11-19 03:53:25,934 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 03:53:27,180 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 03:53:51,382 middlewares Endpoint: /admin/tasks/task/add/, Method: GET, Response Status: 200, Duration: 0.09s
+INFO 2024-11-19 03:53:51,384 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 200 10908
+INFO 2024-11-19 03:53:51,510 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.05s
+INFO 2024-11-19 03:53:51,679 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-19 03:53:58,297 middlewares Endpoint: /admin/profiles/profile/, Method: GET, Response Status: 200, Duration: 0.65s
+INFO 2024-11-19 03:53:58,318 basehttp "GET /admin/profiles/profile/ HTTP/1.1" 200 9600
+INFO 2024-11-19 03:53:58,507 basehttp "GET /static/admin/css/changelists.c70d77c47e69.css HTTP/1.1" 200 1566
+INFO 2024-11-19 03:53:58,527 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-11-19 03:53:58,547 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-19 03:53:58,719 basehttp "GET /static/admin/img/tooltag-add.e59d620a9742.svg HTTP/1.1" 200 203
+INFO 2024-11-19 03:54:28,991 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 03:54:32,533 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 03:54:58,957 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 03:55:02,171 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 03:55:44,776 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 03:55:46,084 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 03:58:06,484 autoreload C:\Users\Metatask\Documents\backend\admins\api\views.py changed, reloading.
+INFO 2024-11-19 03:58:08,587 autoreload Watching for file changes with StatReloader

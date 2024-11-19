@@ -30,27 +30,21 @@ SECRET_KEY = 'django-insecure-g0ww$rrq4y7jlnygg-hl(fwcna$w&s8as1&2h$7h&5+_gtl$f6
 DEBUG = False
 # DEBUG = True
 
-# ALLOWED_HOSTS = ["*"]
-ALLOWED_HOSTS = [
-    "metatask.ibgyzs.easypanel.host", 
-    "www.metatask.ibgyzs.easypanel.host", 
-    "metatask-backend.ibgyzs.easypanel.host", 
-    "www.metatask-backend.ibgyzs.easypanel.host", 
-    "localhost:1805", 
-    "localhost", 
-    "metatask.site",
-    "www.metatask.site",
-    ]
+ALLOWED_HOSTS = ["*"]
+# ALLOWED_HOSTS = [
+#     "metatask.ibgyzs.easypanel.host", 
+#     "www.metatask.ibgyzs.easypanel.host", 
+#     "metatask-backend.ibgyzs.easypanel.host", 
+#     "www.metatask-backend.ibgyzs.easypanel.host", 
+#     ]
 
 
-CORS_ALLOWED_ORIGINS = [
-    "https://metatask.ibgyzs.easypanel.host",
-    "https://metatask-backend.ibgyzs.easypanel.host",
-    "https://metatask.site",
-    "http://localhost:1805",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://metatask.ibgyzs.easypanel.host",
+#     "https://metatask-backend.ibgyzs.easypanel.host",
+# ]
 
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'https://metatask-backend.ibgyzs.easypanel.host',
@@ -64,13 +58,6 @@ cloudinary.config(
   secure = True
 )
 
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 
 
 # Application definition
@@ -159,12 +146,8 @@ DATABASES = {
 
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'metatask',  # Database name
-#         'USER': 'postgres',  # PostgreSQL username
-#         'PASSWORD': 'd2c2888fa6f788ddebd4',  # Database password
-#         'HOST': 'metatask_metadb',  # PostgreSQL host (localhost or IP address)
-#         'PORT': '5432',  # Default PostgreSQL port
+#         'ENGINE': 'django.db.backends.sqlite3',  # Database engine (default: SQLite)
+#         'NAME': BASE_DIR / 'db.sqlite3',         # Path to the database file
 #     }
 # }
 
