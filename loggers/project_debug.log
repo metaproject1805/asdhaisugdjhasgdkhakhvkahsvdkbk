@@ -419,3 +419,86 @@ INFO 2024-11-19 03:55:44,776 autoreload C:\Users\Metatask\Documents\backend\meta
 INFO 2024-11-19 03:55:46,084 autoreload Watching for file changes with StatReloader
 INFO 2024-11-19 03:58:06,484 autoreload C:\Users\Metatask\Documents\backend\admins\api\views.py changed, reloading.
 INFO 2024-11-19 03:58:08,587 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 08:17:06,825 autoreload Watching for file changes with StatReloader
+ERROR 2024-11-19 08:17:25,666 exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2024-11-19 08:17:25,668 log Bad Request: /admin/tasks/task/add/
+WARNING 2024-11-19 08:17:25,670 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 400 143
+ERROR 2024-11-19 08:17:25,743 exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2024-11-19 08:17:25,746 log Bad Request: /favicon.ico
+WARNING 2024-11-19 08:17:25,748 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+INFO 2024-11-19 08:17:57,774 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-11-19 08:17:59,390 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 08:18:00,375 middlewares Endpoint: /admin/tasks/task/add/, Method: GET, Response Status: 200, Duration: 0.27s
+INFO 2024-11-19 08:18:00,377 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 200 10908
+INFO 2024-11-19 08:18:00,431 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-19 08:18:00,438 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-19 08:18:00,557 middlewares Endpoint: /favicon.ico, Method: GET, Response Status: 404, Duration: 0.00s
+WARNING 2024-11-19 08:18:00,558 log Not Found: /favicon.ico
+WARNING 2024-11-19 08:18:00,560 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2024-11-19 08:18:54,002 middlewares Endpoint: /admin/tasks/task/add/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-11-19 08:18:54,004 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 200 10908
+INFO 2024-11-19 08:18:54,046 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-19 08:18:54,047 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-11-19 08:19:02,582 autoreload Watching for file changes with StatReloader
+ERROR 2024-11-19 08:19:11,679 log Internal Server Error: /admin/tasks/task/add/
+Traceback (most recent call last):
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\Metatask\Documents\backend\env\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'admin/css/base.css'
+INFO 2024-11-19 08:19:11,816 middlewares Endpoint: /admin/tasks/task/add/, Method: GET, Response Status: 500, Duration: 0.21s
+ERROR 2024-11-19 08:19:11,817 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 500 145
+INFO 2024-11-19 08:21:25,555 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 08:21:28,079 middlewares Endpoint: /admin/tasks/task/add/, Method: GET, Response Status: 200, Duration: 0.10s
+INFO 2024-11-19 08:21:28,081 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 200 10908
+INFO 2024-11-19 08:21:28,127 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-11-19 08:21:28,128 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
