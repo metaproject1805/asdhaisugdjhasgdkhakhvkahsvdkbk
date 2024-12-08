@@ -532,3 +532,328 @@ INFO 2024-11-19 09:31:27,096 basehttp "GET /static/admin/fonts/Roboto-Light-webf
 INFO 2024-11-19 09:31:27,104 basehttp "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
 INFO 2024-11-19 09:32:01,539 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
 INFO 2024-11-19 09:32:03,348 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 03:35:55,107 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 03:36:44,502 autoreload C:\Users\Public\Documents\metatask\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-08 03:36:46,299 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 03:37:26,730 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 03:38:38,268 middlewares Endpoint: /, Method: GET, Response Status: 404, Duration: 0.10s
+WARNING 2024-12-08 03:38:38,270 log Not Found: /
+WARNING 2024-12-08 03:38:38,271 basehttp "GET / HTTP/1.1" 404 2291
+INFO 2024-12-08 03:38:38,360 middlewares Endpoint: /favicon.ico, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-08 03:38:38,362 log Not Found: /favicon.ico
+WARNING 2024-12-08 03:38:38,363 basehttp "GET /favicon.ico HTTP/1.1" 404 2342
+INFO 2024-12-08 03:39:37,750 middlewares Endpoint: /api/user/register/, Method: POST, Response Status: 200, Duration: 0.84s
+INFO 2024-12-08 03:39:37,750 basehttp "POST /api/user/register/ HTTP/1.1" 200 60
+INFO 2024-12-08 03:40:03,032 middlewares Endpoint: /api/user/register/, Method: POST, Response Status: 200, Duration: 0.81s
+INFO 2024-12-08 03:40:03,032 basehttp "POST /api/user/register/ HTTP/1.1" 200 56
+INFO 2024-12-08 03:43:38,542 autoreload C:\Users\Public\Documents\metatask\backend\profiles\api\views.py changed, reloading.
+INFO 2024-12-08 03:43:40,287 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 03:43:43,563 middlewares Endpoint: /api/user/register/, Method: POST, Response Status: 400, Duration: 0.02s
+WARNING 2024-12-08 03:43:43,563 log Bad Request: /api/user/register/
+WARNING 2024-12-08 03:43:43,563 basehttp "POST /api/user/register/ HTTP/1.1" 400 48
+INFO 2024-12-08 03:44:23,742 middlewares Endpoint: /api/user/register/, Method: POST, Response Status: 400, Duration: 0.00s
+WARNING 2024-12-08 03:44:23,745 log Bad Request: /api/user/register/
+WARNING 2024-12-08 03:44:23,747 basehttp "POST /api/user/register/ HTTP/1.1" 400 48
+INFO 2024-12-08 03:46:15,147 middlewares Endpoint: /api/user/register/, Method: POST, Response Status: 200, Duration: 0.85s
+INFO 2024-12-08 03:46:15,147 basehttp "POST /api/user/register/ HTTP/1.1" 200 62
+INFO 2024-12-08 03:48:00,719 autoreload C:\Users\Public\Documents\metatask\backend\profiles\api\views.py changed, reloading.
+INFO 2024-12-08 03:48:02,336 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 03:48:09,539 middlewares Endpoint: /api/user/register/, Method: POST, Response Status: 200, Duration: 0.78s
+INFO 2024-12-08 03:48:09,539 basehttp "POST /api/user/register/ HTTP/1.1" 200 70
+INFO 2024-12-08 03:48:37,954 autoreload C:\Users\Public\Documents\metatask\backend\profiles\api\views.py changed, reloading.
+INFO 2024-12-08 03:48:39,508 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 03:49:38,111 middlewares Endpoint: /api/user/register/, Method: POST, Response Status: 400, Duration: 0.00s
+WARNING 2024-12-08 03:49:38,111 log Bad Request: /api/user/register/
+WARNING 2024-12-08 03:49:38,111 basehttp "POST /api/user/register/ HTTP/1.1" 400 48
+INFO 2024-12-08 03:50:12,658 autoreload C:\Users\Public\Documents\metatask\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-08 03:50:14,020 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 03:50:26,435 middlewares Endpoint: /api/user/register/, Method: POST, Response Status: 200, Duration: 0.87s
+INFO 2024-12-08 03:50:26,435 basehttp "POST /api/user/register/ HTTP/1.1" 200 60
+INFO 2024-12-08 03:51:01,630 basehttp "OPTIONS /api/user/login/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:51:02,178 middlewares Endpoint: /api/user/login/, Method: POST, Response Status: 401, Duration: 0.55s
+WARNING 2024-12-08 03:51:02,180 log Unauthorized: /api/user/login/
+WARNING 2024-12-08 03:51:02,182 basehttp "POST /api/user/login/ HTTP/1.1" 401 63
+INFO 2024-12-08 03:51:17,629 middlewares Endpoint: /api/user/login/, Method: POST, Response Status: 200, Duration: 0.95s
+INFO 2024-12-08 03:51:17,629 basehttp "POST /api/user/login/ HTTP/1.1" 200 710
+INFO 2024-12-08 03:51:26,346 basehttp "OPTIONS /api/user/detail/2/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:51:26,363 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 03:51:26,378 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 1115
+INFO 2024-12-08 03:51:49,093 basehttp "OPTIONS /api/user/pass-key-activate/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:51:49,123 middlewares Endpoint: /api/user/pass-key-activate/, Method: POST, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 03:51:49,126 basehttp "POST /api/user/pass-key-activate/ HTTP/1.1" 200 763
+INFO 2024-12-08 03:52:26,654 autoreload C:\Users\Public\Documents\metatask\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-08 03:52:28,523 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 03:52:54,745 basehttp "OPTIONS /api/investments/investment-create/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:52:58,001 middlewares Endpoint: /api/investments/investment-create/, Method: POST, Response Status: 200, Duration: 3.26s
+INFO 2024-12-08 03:52:58,001 basehttp "POST /api/investments/investment-create/ HTTP/1.1" 200 20
+INFO 2024-12-08 03:52:58,043 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 03:52:58,043 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 1663
+INFO 2024-12-08 03:53:25,950 middlewares Endpoint: /user/register, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-08 03:53:25,951 log Not Found: /user/register
+WARNING 2024-12-08 03:53:25,953 basehttp "GET /user/register HTTP/1.1" 404 2348
+INFO 2024-12-08 03:53:39,174 middlewares Endpoint: /api//user/register, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-08 03:53:39,176 log Not Found: /api//user/register
+WARNING 2024-12-08 03:53:39,178 basehttp "GET /api//user/register HTTP/1.1" 404 3376
+INFO 2024-12-08 03:53:48,771 middlewares Endpoint: /api//user/regis, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-12-08 03:53:48,773 log Not Found: /api//user/regis
+WARNING 2024-12-08 03:53:48,776 basehttp "GET /api//user/regis HTTP/1.1" 404 3367
+INFO 2024-12-08 03:53:59,057 middlewares Endpoint: /api/user/register, Method: GET, Response Status: 404, Duration: 0.01s
+INFO 2024-12-08 03:53:59,060 basehttp "GET /api/user/register HTTP/1.1" 301 0
+INFO 2024-12-08 03:53:59,354 middlewares Endpoint: /api/user/register/, Method: GET, Response Status: 405, Duration: 0.29s
+WARNING 2024-12-08 03:53:59,355 log Method Not Allowed: /api/user/register/
+WARNING 2024-12-08 03:53:59,357 basehttp "GET /api/user/register/ HTTP/1.1" 405 8163
+INFO 2024-12-08 03:53:59,400 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-12-08 03:53:59,406 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-12-08 03:53:59,419 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-12-08 03:53:59,426 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-12-08 03:53:59,468 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-12-08 03:53:59,515 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-12-08 03:53:59,575 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-12-08 03:53:59,613 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-12-08 03:53:59,647 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-12-08 03:53:59,674 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-12-08 03:53:59,695 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-12-08 03:53:59,703 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-12-08 03:54:04,078 middlewares Endpoint: /api/user/register/sda, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-08 03:54:04,078 log Not Found: /api/user/register/sda
+WARNING 2024-12-08 03:54:04,078 basehttp "GET /api/user/register/sda HTTP/1.1" 404 5219
+INFO 2024-12-08 03:54:19,413 middlewares Endpoint: /api/user/register/active-super-user, Method: GET, Response Status: 404, Duration: 0.01s
+INFO 2024-12-08 03:54:19,413 basehttp "GET /api/user/register/active-super-user HTTP/1.1" 301 0
+INFO 2024-12-08 03:54:19,433 middlewares Endpoint: /api/user/register/active-super-user/, Method: GET, Response Status: 405, Duration: 0.02s
+WARNING 2024-12-08 03:54:19,433 log Method Not Allowed: /api/user/register/active-super-user/
+WARNING 2024-12-08 03:54:19,433 basehttp "GET /api/user/register/active-super-user/ HTTP/1.1" 405 8409
+INFO 2024-12-08 03:54:57,914 middlewares Endpoint: /api/user/register/active-super-user/, Method: POST, Response Status: 200, Duration: 0.93s
+INFO 2024-12-08 03:54:57,916 basehttp "POST /api/user/register/active-super-user/ HTTP/1.1" 200 8408
+INFO 2024-12-08 03:55:10,493 middlewares Endpoint: /admin, Method: GET, Response Status: 404, Duration: 0.02s
+INFO 2024-12-08 03:55:10,496 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2024-12-08 03:55:10,801 middlewares Endpoint: /admin/, Method: GET, Response Status: 302, Duration: 0.02s
+INFO 2024-12-08 03:55:10,803 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-12-08 03:55:10,935 middlewares Endpoint: /admin/login/, Method: GET, Response Status: 200, Duration: 0.13s
+INFO 2024-12-08 03:55:10,937 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+INFO 2024-12-08 03:55:10,998 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2024-12-08 03:55:11,095 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-12-08 03:55:11,119 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-12-08 03:55:11,128 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-12-08 03:55:11,165 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2024-12-08 03:55:11,210 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-12-08 03:55:11,269 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-12-08 03:55:29,059 middlewares Endpoint: /admin/login/, Method: POST, Response Status: 302, Duration: 0.61s
+INFO 2024-12-08 03:55:29,078 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-12-08 03:55:29,145 middlewares Endpoint: /admin/, Method: GET, Response Status: 200, Duration: 0.07s
+INFO 2024-12-08 03:55:29,145 basehttp "GET /admin/ HTTP/1.1" 200 10400
+INFO 2024-12-08 03:55:29,198 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-12-08 03:55:29,223 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-12-08 03:55:29,223 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-12-08 03:55:51,923 middlewares Endpoint: /admin/, Method: GET, Response Status: 302, Duration: 0.00s
+INFO 2024-12-08 03:55:51,923 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-12-08 03:55:51,939 middlewares Endpoint: /admin/login/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 03:55:51,941 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+INFO 2024-12-08 03:55:51,981 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2024-12-08 03:55:51,990 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-12-08 03:55:51,998 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-12-08 03:55:52,002 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-12-08 03:55:52,010 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2024-12-08 03:55:52,014 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-12-08 03:55:52,020 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-12-08 03:55:59,764 basehttp "OPTIONS /api/user/detail/undefined/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:55:59,790 middlewares Endpoint: /api/user/detail/undefined/, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-08 03:55:59,790 log Not Found: /api/user/detail/undefined/
+WARNING 2024-12-08 03:55:59,797 basehttp "GET /api/user/detail/undefined/ HTTP/1.1" 404 5234
+INFO 2024-12-08 03:56:19,425 basehttp "OPTIONS /api/user/login/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:56:19,981 middlewares Endpoint: /api/user/login/, Method: POST, Response Status: 200, Duration: 0.55s
+INFO 2024-12-08 03:56:19,981 basehttp "POST /api/user/login/ HTTP/1.1" 200 707
+INFO 2024-12-08 03:56:21,594 basehttp "OPTIONS /api/admins/user-count HTTP/1.1" 200 0
+INFO 2024-12-08 03:56:21,594 basehttp "OPTIONS /api/user/detail/7/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:56:21,631 middlewares Endpoint: /api/admins/user-count, Method: GET, Response Status: 404, Duration: 0.04s
+INFO 2024-12-08 03:56:21,634 middlewares Endpoint: /api/user/detail/7/, Method: GET, Response Status: 200, Duration: 0.04s
+INFO 2024-12-08 03:56:21,634 basehttp "GET /api/admins/user-count HTTP/1.1" 301 0
+INFO 2024-12-08 03:56:21,634 basehttp "GET /api/user/detail/7/ HTTP/1.1" 200 1118
+INFO 2024-12-08 03:56:21,634 basehttp "OPTIONS /api/admins/user-count/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:56:21,661 middlewares Endpoint: /api/admins/user-count/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 03:56:21,662 basehttp "GET /api/admins/user-count/ HTTP/1.1" 200 71
+INFO 2024-12-08 03:56:21,726 basehttp "OPTIONS /api/admins/all-user?page=1 HTTP/1.1" 200 0
+INFO 2024-12-08 03:56:21,747 middlewares Endpoint: /api/admins/all-user, Method: GET, Response Status: 404, Duration: 0.02s
+INFO 2024-12-08 03:56:21,750 basehttp "GET /api/admins/all-user?page=1 HTTP/1.1" 301 0
+INFO 2024-12-08 03:56:21,941 basehttp "OPTIONS /api/admins/all-user/?page=1 HTTP/1.1" 200 0
+INFO 2024-12-08 03:56:21,957 middlewares Endpoint: /api/admins/all-user/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 03:56:21,957 basehttp "GET /api/admins/all-user/?page=1 HTTP/1.1" 200 651
+INFO 2024-12-08 03:56:29,509 basehttp "OPTIONS /api/admins/pending-investment-user?page=1 HTTP/1.1" 200 0
+INFO 2024-12-08 03:56:29,548 middlewares Endpoint: /api/admins/pending-investment-user, Method: GET, Response Status: 404, Duration: 0.02s
+INFO 2024-12-08 03:56:29,618 basehttp "GET /api/admins/pending-investment-user?page=1 HTTP/1.1" 301 0
+INFO 2024-12-08 03:56:29,618 basehttp "OPTIONS /api/admins/pending-investment-user/?page=1 HTTP/1.1" 200 0
+INFO 2024-12-08 03:56:29,665 middlewares Endpoint: /api/admins/pending-investment-user/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 03:56:29,689 basehttp "GET /api/admins/pending-investment-user/?page=1 HTTP/1.1" 200 359
+INFO 2024-12-08 03:58:40,209 basehttp "OPTIONS /api/admins/admin-investment-action/2/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:58:40,261 middlewares Endpoint: /api/admins/admin-investment-action/2/, Method: PUT, Response Status: 200, Duration: 0.05s
+INFO 2024-12-08 03:58:40,263 basehttp "PUT /api/admins/admin-investment-action/2/ HTTP/1.1" 200 22
+INFO 2024-12-08 03:58:40,279 middlewares Endpoint: /api/admins/user-count/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 03:58:40,291 basehttp "GET /api/admins/user-count/ HTTP/1.1" 200 71
+INFO 2024-12-08 03:58:40,301 middlewares Endpoint: /api/admins/pending-investment-user/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 03:58:40,301 basehttp "GET /api/admins/pending-investment-user/?page=1 HTTP/1.1" 200 52
+INFO 2024-12-08 03:58:45,231 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 03:58:45,233 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 1929
+INFO 2024-12-08 03:59:12,973 basehttp "OPTIONS /api/packages/package-create/ HTTP/1.1" 200 0
+INFO 2024-12-08 03:59:14,595 middlewares Endpoint: /api/packages/package-create/, Method: POST, Response Status: 200, Duration: 1.62s
+INFO 2024-12-08 03:59:14,595 basehttp "POST /api/packages/package-create/ HTTP/1.1" 200 17
+INFO 2024-12-08 03:59:14,642 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 03:59:14,644 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 2436
+INFO 2024-12-08 03:59:26,062 basehttp "OPTIONS /api/admins/pending-user?page=1 HTTP/1.1" 200 0
+INFO 2024-12-08 03:59:26,083 middlewares Endpoint: /api/admins/pending-user, Method: GET, Response Status: 404, Duration: 0.02s
+INFO 2024-12-08 03:59:26,087 basehttp "GET /api/admins/pending-user?page=1 HTTP/1.1" 301 0
+INFO 2024-12-08 03:59:26,090 basehttp "OPTIONS /api/admins/pending-user/?page=1 HTTP/1.1" 200 0
+INFO 2024-12-08 03:59:26,095 middlewares Endpoint: /api/admins/pending-user/, Method: GET, Response Status: 200, Duration: 0.00s
+INFO 2024-12-08 03:59:26,095 basehttp "GET /api/admins/pending-user/?page=1 HTTP/1.1" 200 336
+INFO 2024-12-08 03:59:58,583 middlewares Endpoint: /api/investments/investment-create/, Method: POST, Response Status: 200, Duration: 3.69s
+INFO 2024-12-08 03:59:58,583 basehttp "POST /api/investments/investment-create/ HTTP/1.1" 200 20
+INFO 2024-12-08 03:59:58,623 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 03:59:58,632 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 2987
+INFO 2024-12-08 04:03:06,280 middlewares Endpoint: /api/admins/pending-investment-user/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:03:06,282 basehttp "GET /api/admins/pending-investment-user/?page=1 HTTP/1.1" 200 350
+INFO 2024-12-08 04:04:03,144 autoreload C:\Users\Public\Documents\metatask\backend\investment\models.py changed, reloading.
+INFO 2024-12-08 04:04:04,805 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 04:04:10,233 middlewares Endpoint: /api/admins/admin-investment-action/2/, Method: PUT, Response Status: 200, Duration: 0.08s
+INFO 2024-12-08 04:04:10,233 basehttp "PUT /api/admins/admin-investment-action/2/ HTTP/1.1" 200 22
+INFO 2024-12-08 04:04:10,255 middlewares Endpoint: /api/admins/user-count/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:04:10,255 basehttp "GET /api/admins/user-count/ HTTP/1.1" 200 71
+INFO 2024-12-08 04:04:10,276 middlewares Endpoint: /api/admins/pending-investment-user/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 04:04:10,286 basehttp "GET /api/admins/pending-investment-user/?page=1 HTTP/1.1" 200 52
+INFO 2024-12-08 04:04:14,618 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:04:14,618 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 3252
+INFO 2024-12-08 04:04:31,568 middlewares Endpoint: /api/investments/investment-create/, Method: POST, Response Status: 200, Duration: 2.00s
+INFO 2024-12-08 04:04:31,568 basehttp "POST /api/investments/investment-create/ HTTP/1.1" 200 20
+INFO 2024-12-08 04:04:31,601 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:04:31,601 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 3799
+INFO 2024-12-08 04:05:27,470 middlewares Endpoint: /admin/profiles/profile/, Method: GET, Response Status: 200, Duration: 0.28s
+INFO 2024-12-08 04:05:27,473 basehttp "GET /admin/profiles/profile/ HTTP/1.1" 200 13218
+INFO 2024-12-08 04:05:27,503 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-12-08 04:05:27,548 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2024-12-08 04:05:27,553 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:05:27,557 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-12-08 04:05:27,559 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-12-08 04:05:27,570 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-12-08 04:05:27,571 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-12-08 04:05:27,617 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-12-08 04:05:27,652 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2024-12-08 04:05:27,691 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2024-12-08 04:05:27,700 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2024-12-08 04:05:27,741 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-12-08 04:05:27,752 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-12-08 04:05:27,776 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-12-08 04:05:27,790 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-12-08 04:05:27,799 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-12-08 04:05:27,831 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-12-08 04:05:27,926 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-12-08 04:05:27,953 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-12-08 04:05:27,977 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-12-08 04:05:31,753 middlewares Endpoint: /admin/profiles/profile/2/change/, Method: GET, Response Status: 200, Duration: 0.38s
+INFO 2024-12-08 04:05:31,753 basehttp "GET /admin/profiles/profile/2/change/ HTTP/1.1" 200 48539
+INFO 2024-12-08 04:05:31,794 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-12-08 04:05:31,802 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 04:05:31,803 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-12-08 04:05:31,803 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-12-08 04:05:31,828 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-12-08 04:05:31,836 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-12-08 04:05:31,836 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-12-08 04:05:31,861 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+INFO 2024-12-08 04:05:31,868 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-12-08 04:05:31,889 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-12-08 04:05:31,918 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-12-08 04:05:32,001 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-12-08 04:05:32,001 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-12-08 04:05:46,357 middlewares Endpoint: /admin/profiles/profile/2/change/, Method: POST, Response Status: 302, Duration: 0.08s
+INFO 2024-12-08 04:05:46,357 basehttp "POST /admin/profiles/profile/2/change/ HTTP/1.1" 302 0
+INFO 2024-12-08 04:05:46,400 middlewares Endpoint: /admin/profiles/profile/, Method: GET, Response Status: 200, Duration: 0.04s
+INFO 2024-12-08 04:05:46,402 basehttp "GET /admin/profiles/profile/ HTTP/1.1" 200 13422
+INFO 2024-12-08 04:05:46,433 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 04:05:46,434 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-12-08 04:05:46,474 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-12-08 04:05:51,239 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:05:51,242 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 3801
+INFO 2024-12-08 04:06:13,942 basehttp "OPTIONS /api/withdrawals/withdrawal-create/ HTTP/1.1" 200 0
+INFO 2024-12-08 04:06:14,011 middlewares Endpoint: /api/withdrawals/withdrawal-create/, Method: POST, Response Status: 200, Duration: 0.06s
+INFO 2024-12-08 04:06:14,026 basehttp "POST /api/withdrawals/withdrawal-create/ HTTP/1.1" 200 30
+INFO 2024-12-08 04:06:14,046 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 04:06:14,046 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 4106
+INFO 2024-12-08 04:06:22,674 basehttp "OPTIONS /api/admins/all-withdrawal?page=1 HTTP/1.1" 200 0
+INFO 2024-12-08 04:06:22,703 middlewares Endpoint: /api/admins/all-withdrawal, Method: GET, Response Status: 404, Duration: 0.03s
+INFO 2024-12-08 04:06:22,704 basehttp "GET /api/admins/all-withdrawal?page=1 HTTP/1.1" 301 0
+INFO 2024-12-08 04:06:23,022 basehttp "OPTIONS /api/admins/all-withdrawal/?page=1 HTTP/1.1" 200 0
+INFO 2024-12-08 04:06:23,038 middlewares Endpoint: /api/admins/all-withdrawal/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:06:23,038 basehttp "GET /api/admins/all-withdrawal/?page=1 HTTP/1.1" 200 163
+INFO 2024-12-08 04:07:59,165 autoreload C:\Users\Public\Documents\metatask\backend\withdrawals\api\serializers.py changed, reloading.
+INFO 2024-12-08 04:08:01,063 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 04:08:05,004 middlewares Endpoint: /api/admins/user-count/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:08:05,004 middlewares Endpoint: /api/user/detail/7/, Method: GET, Response Status: 200, Duration: 0.05s
+INFO 2024-12-08 04:08:05,004 basehttp "GET /api/admins/user-count/ HTTP/1.1" 200 71
+INFO 2024-12-08 04:08:05,004 basehttp "GET /api/user/detail/7/ HTTP/1.1" 200 1118
+INFO 2024-12-08 04:08:05,067 middlewares Endpoint: /api/admins/all-user/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:08:05,073 basehttp "GET /api/admins/all-user/?page=1 HTTP/1.1" 200 852
+INFO 2024-12-08 04:08:10,807 middlewares Endpoint: /api/admins/all-withdrawal/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:08:10,808 basehttp "GET /api/admins/all-withdrawal/?page=1 HTTP/1.1" 200 193
+INFO 2024-12-08 04:10:27,653 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:10:27,653 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 4106
+INFO 2024-12-08 04:10:38,581 basehttp "OPTIONS /api/admins/admin-withdrawal-action/1/ HTTP/1.1" 200 0
+INFO 2024-12-08 04:10:38,638 middlewares Endpoint: /api/admins/admin-withdrawal-action/1/, Method: PUT, Response Status: 200, Duration: 0.05s
+INFO 2024-12-08 04:10:38,638 basehttp "PUT /api/admins/admin-withdrawal-action/1/ HTTP/1.1" 200 35
+INFO 2024-12-08 04:10:38,667 middlewares Endpoint: /api/admins/all-withdrawal/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 04:10:38,669 basehttp "GET /api/admins/all-withdrawal/?page=1 HTTP/1.1" 200 52
+INFO 2024-12-08 04:10:42,266 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:10:42,269 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 4362
+INFO 2024-12-08 04:21:14,559 middlewares Endpoint: /api/withdrawals/withdrawal-create/, Method: POST, Response Status: 200, Duration: 0.05s
+INFO 2024-12-08 04:21:14,559 basehttp "POST /api/withdrawals/withdrawal-create/ HTTP/1.1" 200 30
+INFO 2024-12-08 04:21:14,603 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:21:14,605 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 4661
+INFO 2024-12-08 04:21:32,697 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:21:32,731 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 4661
+INFO 2024-12-08 04:23:03,508 middlewares Endpoint: /api/withdrawals/withdrawal-create/, Method: POST, Response Status: 200, Duration: 0.05s
+INFO 2024-12-08 04:23:03,508 basehttp "POST /api/withdrawals/withdrawal-create/ HTTP/1.1" 200 30
+INFO 2024-12-08 04:23:03,545 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.04s
+INFO 2024-12-08 04:23:03,574 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 4960
+INFO 2024-12-08 04:23:08,016 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:23:08,036 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 4960
+INFO 2024-12-08 04:24:32,636 middlewares Endpoint: /api/withdrawals/withdrawal-create/, Method: POST, Response Status: 200, Duration: 0.06s
+INFO 2024-12-08 04:24:32,636 basehttp "POST /api/withdrawals/withdrawal-create/ HTTP/1.1" 200 30
+INFO 2024-12-08 04:24:32,673 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.04s
+INFO 2024-12-08 04:24:32,675 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 5259
+INFO 2024-12-08 04:27:48,334 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.04s
+INFO 2024-12-08 04:27:48,340 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 5259
+INFO 2024-12-08 04:30:28,170 middlewares Endpoint: /api/withdrawals/withdrawal-create/, Method: POST, Response Status: 200, Duration: 0.09s
+INFO 2024-12-08 04:30:28,186 basehttp "POST /api/withdrawals/withdrawal-create/ HTTP/1.1" 200 30
+INFO 2024-12-08 04:30:28,239 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:30:28,252 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 5564
+INFO 2024-12-08 04:30:32,840 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:30:32,842 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 5564
+INFO 2024-12-08 04:30:48,153 middlewares Endpoint: /api/admins/user-count/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:30:48,153 middlewares Endpoint: /api/user/detail/7/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:30:48,153 basehttp "GET /api/admins/user-count/ HTTP/1.1" 200 71
+INFO 2024-12-08 04:30:48,153 basehttp "GET /api/user/detail/7/ HTTP/1.1" 200 1118
+INFO 2024-12-08 04:30:48,208 middlewares Endpoint: /api/admins/all-user/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:30:48,210 basehttp "GET /api/admins/all-user/?page=1 HTTP/1.1" 200 852
+INFO 2024-12-08 04:30:50,023 middlewares Endpoint: /api/admins/all-withdrawal/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:30:50,023 basehttp "GET /api/admins/all-withdrawal/?page=1 HTTP/1.1" 200 597
+INFO 2024-12-08 04:30:54,071 basehttp "OPTIONS /api/admins/admin-withdrawal-action/2/ HTTP/1.1" 200 0
+INFO 2024-12-08 04:30:54,134 middlewares Endpoint: /api/admins/admin-withdrawal-action/2/, Method: PUT, Response Status: 200, Duration: 0.06s
+INFO 2024-12-08 04:30:54,136 basehttp "PUT /api/admins/admin-withdrawal-action/2/ HTTP/1.1" 200 35
+INFO 2024-12-08 04:30:54,153 middlewares Endpoint: /api/admins/all-withdrawal/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 04:30:54,164 basehttp "GET /api/admins/all-withdrawal/?page=1 HTTP/1.1" 200 462
+INFO 2024-12-08 04:30:55,135 basehttp "OPTIONS /api/admins/admin-withdrawal-action/3/ HTTP/1.1" 200 0
+INFO 2024-12-08 04:30:55,204 middlewares Endpoint: /api/admins/admin-withdrawal-action/3/, Method: PUT, Response Status: 200, Duration: 0.07s
+INFO 2024-12-08 04:30:55,206 basehttp "PUT /api/admins/admin-withdrawal-action/3/ HTTP/1.1" 200 35
+INFO 2024-12-08 04:30:55,240 middlewares Endpoint: /api/admins/all-withdrawal/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-08 04:30:55,242 basehttp "GET /api/admins/all-withdrawal/?page=1 HTTP/1.1" 200 327
+INFO 2024-12-08 04:30:55,749 basehttp "OPTIONS /api/admins/admin-withdrawal-action/4/ HTTP/1.1" 200 0
+INFO 2024-12-08 04:30:55,811 middlewares Endpoint: /api/admins/admin-withdrawal-action/4/, Method: PUT, Response Status: 200, Duration: 0.06s
+INFO 2024-12-08 04:30:55,811 basehttp "PUT /api/admins/admin-withdrawal-action/4/ HTTP/1.1" 200 35
+INFO 2024-12-08 04:30:55,836 middlewares Endpoint: /api/admins/all-withdrawal/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 04:30:55,839 basehttp "GET /api/admins/all-withdrawal/?page=1 HTTP/1.1" 200 192
+INFO 2024-12-08 04:30:56,342 basehttp "OPTIONS /api/admins/admin-withdrawal-action/5/ HTTP/1.1" 200 0
+INFO 2024-12-08 04:30:56,404 middlewares Endpoint: /api/admins/admin-withdrawal-action/5/, Method: PUT, Response Status: 200, Duration: 0.06s
+INFO 2024-12-08 04:30:56,406 basehttp "PUT /api/admins/admin-withdrawal-action/5/ HTTP/1.1" 200 35
+INFO 2024-12-08 04:30:56,425 middlewares Endpoint: /api/admins/all-withdrawal/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-08 04:30:56,427 basehttp "GET /api/admins/all-withdrawal/?page=1 HTTP/1.1" 200 52
+INFO 2024-12-08 04:31:01,973 middlewares Endpoint: /api/user/detail/2/, Method: GET, Response Status: 200, Duration: 0.03s
+INFO 2024-12-08 04:31:02,006 basehttp "GET /api/user/detail/2/ HTTP/1.1" 200 6588
+INFO 2024-12-08 04:31:50,401 autoreload C:\Users\Public\Documents\metatask\backend\withdrawals\api\serializers.py changed, reloading.
+INFO 2024-12-08 04:31:52,291 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 04:32:17,510 autoreload C:\Users\Public\Documents\metatask\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-08 04:32:19,097 autoreload Watching for file changes with StatReloader

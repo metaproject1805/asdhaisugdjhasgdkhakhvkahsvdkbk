@@ -6,6 +6,7 @@ from cloudinary.models import CloudinaryField
 class Investment(models.Model):
   DURATION_CHOICES = [
     ("7 Days", "7 Days"),
+    ("14 Days", "14 Days"),
     ("30 Days", "30 Days"),
     ("60 Days", "60 Days"),
     ("90 Days", "90 Days"),
@@ -35,31 +36,35 @@ class Investment(models.Model):
     if self.duration == "7 Days":
       self.daily_earning = 1.00
       self.days_remaining = 7
+      self.level=2
+    elif self.duration == "14 Days":
+      self.daily_earning = 1.00
+      self.days_remaining = 14
       self.level=1
     elif self.duration == "30 Days":
       self.daily_earning = 1.3
       self.days_remaining = 30
-      self.level=2
+      self.level=3
     elif self.duration == "60 Days":
       self.earning = 2.00
       self.daily_earning = 60
-      self.level=3
+      self.level=4
     elif self.duration == "90 Days":
       self.daily_earning = 4.00
       self.days_remaining = 90
-      self.level=4
+      self.level=5
     elif self.duration == "120 Days":
       self.daily_earning = 5.00
       self.days_remaining = 120.00
-      self.level=5
+      self.level=6
     elif self.duration == "360 Days":
       self.daily_earning = 8.00
       self.days_remaining = 360
-      self.level=6
+      self.level=7
     elif self.duration == "1080 Days":
       self.daily_earning = 12.00
       self.days_remaining = 1080
-      self.level=7
+      self.level=8
 
     self.save()
    

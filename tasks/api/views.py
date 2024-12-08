@@ -15,7 +15,7 @@ class TaskListView(generics.ListAPIView):
   
   def get_queryset(self, *args, **kwargs):
     user = self.request.user
-    result_counter = user.active_package.daily_earning - user.video_watched_count
+    result_counter = user.active_package.max_number_of_task - user.video_watched_count
     watched_video_ids = user.video_watched.values_list('id', flat=True)
     undone_task = Task.objects.filter(~Q(id__in=watched_video_ids)).order_by("?")[:result_counter]
     return undone_task
