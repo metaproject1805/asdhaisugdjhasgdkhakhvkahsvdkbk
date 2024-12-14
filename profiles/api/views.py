@@ -51,8 +51,9 @@ class UserRegistrationView(APIView):
                                 ) 
       notification = create_user_notification(title="Welcome to Our Community!", message=f"""
             Dear {user.username},
-            Welcome to Metatask! We’re excited to have you join our community. To get you started, we’ve credited your account with 20 points as a signup bonus. 🎁
-            Welcome aboard! We’re thrilled to have you join our community. As a new member, you’ll have access to a range of features and resources designed to help you succeed financially. 
+            Welcome to Metatask! We’re excited to have you join our community. 
+            To get you started, we’ve credited your account with 20 points as a signup bonus. 🎁 
+            As a new member, you’ll have access to a range of features and resources designed to help you succeed financially. 
             Thank you for choosing us, and we look forward to helping you achieve your goals!
             Best regards,
             The Metatask Team
