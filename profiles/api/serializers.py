@@ -152,10 +152,8 @@ class ProfileSerializer(serializers.ModelSerializer):
   
   def get_referred(self, obj):
     referred = Profile.objects.filter(ref_by=obj)    
-    print(ReferredProfileSerializer(referred, many=True).data)
     return ReferredProfileSerializer(referred, many=True).data
 
   def get_withdrawals(self, obj):
     withdrawals = Withdrawal.objects.filter(user=obj)
-    print(WithdrawalListSerializer(withdrawals, many=True).data)
     return WithdrawalListSerializer(withdrawals, many=True).data
