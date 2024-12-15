@@ -122,7 +122,7 @@ class ReferredProfileSerializer(serializers.ModelSerializer):
   active_package = PackageLevelSerializer(read_only=True)
   class Meta:
     model = Profile
-    fields = ["username", "active", "active_package", "active"]
+    fields = ["username", "active", "active_package"]
 
 
 class ProfileNotificationSerializer(serializers.ModelSerializer):
@@ -152,8 +152,10 @@ class ProfileSerializer(serializers.ModelSerializer):
   
   def get_referred(self, obj):
     referred = Profile.objects.filter(ref_by=obj)    
+    print(ReferredProfileSerializer(referred, many=True).data)
     return ReferredProfileSerializer(referred, many=True).data
 
   def get_withdrawals(self, obj):
     withdrawals = Withdrawal.objects.filter(user=obj)
+    print(WithdrawalListSerializer(withdrawals, many=True).data)
     return WithdrawalListSerializer(withdrawals, many=True).data

@@ -46,13 +46,13 @@ class UserRegistrationView(APIView):
       security_phase = f"{security_phase_1} {security_phase_2} {security_phase_3} {security_phase_4} {security_phase_5} {security_phase_6}"
       user = UserModel.objects.create_user(**serializer.validated_data,
                                 username = username,
-                                balance = 20.00,
+                                balance = 2.00,
                                 security_phase = security_phase,
                                 ) 
       notification = create_user_notification(title="Welcome to Our Community!", message=f"""
             Dear {user.username},
             Welcome to Metatask! We’re excited to have you join our community. 
-            To get you started, we’ve credited your account with $20 as a signup bonus. 🎁 
+            To get you started, we’ve credited your account with $2 as a signup bonus. 🎁 
             As a new member, you’ll have access to a range of features and resources designed to help you succeed financially. 
             Thank you for choosing us, and we look forward to helping you achieve your goals!
             Best regards,
