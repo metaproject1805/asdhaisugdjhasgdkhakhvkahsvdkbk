@@ -309,7 +309,7 @@ class AdminWithdrawalActionView(APIView):
         notification = create_user_notification(
           type="Success",
           title="Withdrawal Request Approved",
-          message="Your withdrawal request has been approved! The funds have been successfully paid to the address you provided."
+          message="Your withdrawal request has been approved! The funds have been successfully paid to the address you provided. Thank you"
         )
         instance.user.notification.add(notification)
         instance.user.save()
