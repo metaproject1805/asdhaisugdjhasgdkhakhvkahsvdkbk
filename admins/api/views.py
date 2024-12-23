@@ -76,7 +76,12 @@ class DailyInvestmentUpdate(APIView):
         
       else:
         user.investment.days_remaining -= 1
-        user.balance += user.investment.daily_earning
+        if user.investment.level == 2:
+          user.balance += 1
+        else:
+          daily_earning_percentage = user.investment.daily_earning / 100
+          adding_up = daily_earning_percentage * user.investment.price
+          user.balance += adding_up
         user.investment.save()
         user.save()
     return Response("Investment Updated", status=200)
@@ -238,8 +243,6 @@ class AdminInvestmentActionView(APIView):
         if investment:
           investment.payment_status = "Active"
           instance.active = True
-          instance.balance += investment.daily_earning
-          investment.daily_earning -= 1
           if instance.ref_by:
             instance.ref_by.balance += remove_five_percent(investment.price)
             if instance.ref_by.pending_ref.filter(id=instance.id).exists():

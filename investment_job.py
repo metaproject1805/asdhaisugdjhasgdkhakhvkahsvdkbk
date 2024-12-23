@@ -5,7 +5,7 @@ import django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "metatask.settings")
 
 django.setup()
-
+ 
 
 
 from profiles.models import Profile
@@ -32,7 +32,13 @@ def accumulate_investment():
       
     else:
       user.investment.days_remaining -= 1
-      user.balance += user.investment.daily_earning
+      if user.investment.level == 2:
+        user.balance += 1
+      else:
+        daily_earning_percentage = user.investment.daily_earning / 100
+        adding_up = daily_earning_percentage * user.investment.price
+        user.balance += adding_up
+        
       user.investment.save()
       user.save()
     
