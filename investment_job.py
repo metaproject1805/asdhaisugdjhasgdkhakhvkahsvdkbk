@@ -38,7 +38,6 @@ def accumulate_investment():
         daily_earning_percentage = user.investment.daily_earning / 100
         adding_up = daily_earning_percentage * user.investment.price
         user.balance += adding_up
-        
       user.investment.save()
       user.save()
     
