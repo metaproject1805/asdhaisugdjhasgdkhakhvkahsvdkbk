@@ -35,14 +35,3 @@ def daily_profile_update():
       user.active_package.save()
       user.save()
     
-# schedule.every(10).seconds.do(daily_profile_update)    
-# schedule.every().day.at("12:42", "Europe/Amsterdam").do(job)
-    
-# daily_profile_update()
-
-
-# while True:
-#     schedule.run_pending()
-
-
-daily_profile_update()

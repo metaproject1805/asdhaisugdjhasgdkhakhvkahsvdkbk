@@ -106,6 +106,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'base.api.middlewares.RequestLoggingMiddleware',
+    'base.api.middlewares.DailyRunMiddleware',
 ]
 
 ROOT_URLCONF = 'metatask.urls'
@@ -287,6 +288,14 @@ LOGGING = {
             'filename': os.path.join(LOGGING_DIR, "project_debug.log"),
             'formatter': 'verbose',
         },
+        'cron': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.TimedRotatingFileHandler',
+            'filename': os.path.join(LOGGING_DIR, 'daily_task.log'),
+            'when': 'midnight',
+            'backupCount': 7,
+            'formatter': 'verbose',
+        },
         'console': {
             'level': 'DEBUG',
             'class': 'logging.StreamHandler',
@@ -294,7 +303,7 @@ LOGGING = {
         },
         'request_file': {
             'level': 'INFO',
-            'class': 'base.api.logging_handlers.RequestLoggingHandler',  # Adjust this path
+            'class': 'base.api.logging_handlers.RequestLoggingHandler', 
             'file_path': os.path.join(LOGGING_DIR, "api_requests.log"),
             'formatter': 'verbose',
         },
@@ -302,7 +311,12 @@ LOGGING = {
     'loggers': {
         'django': {
             'handlers': ['file', 'console', "request_file"],
-            'level': 'INFO',  # Use 'DEBUG' for more detailed logs
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'daily_task': {
+            'handlers': ["cron"],
+            'level': 'INFO',
             'propagate': True,
         },
         'request': {

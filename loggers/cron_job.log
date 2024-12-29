@@ -1,0 +1,4 @@
+INFO 2024-12-29 18:36:12,783 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:37:19,801 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:39:00,787 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:43:14,534 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.

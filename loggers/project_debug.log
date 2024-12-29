@@ -9,3 +9,308 @@ INFO 2024-12-29 10:50:19,892 autoreload Watching for file changes with StatReloa
 INFO 2024-12-29 10:51:34,463 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
 INFO 2024-12-29 10:51:36,446 autoreload Watching for file changes with StatReloader
 INFO 2024-12-29 11:11:14,855 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 17:44:02,117 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 17:45:14,337 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 17:45:15,924 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 17:52:26,981 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 17:52:28,728 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 17:52:51,653 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 17:52:53,126 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 17:54:14,006 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 17:54:15,356 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 17:54:33,877 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 17:54:35,283 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 17:54:47,005 middlewares Endpoint: /admin, Method: GET, Response Status: 404, Duration: 0.06s
+INFO 2024-12-29 17:54:47,006 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2024-12-29 17:54:47,213 middlewares Endpoint: /admin/, Method: GET, Response Status: 200, Duration: 0.20s
+INFO 2024-12-29 17:54:47,215 basehttp "GET /admin/ HTTP/1.1" 200 10965
+INFO 2024-12-29 17:54:48,527 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-12-29 17:54:48,534 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-12-29 17:54:48,575 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-12-29 17:54:48,595 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-12-29 17:54:48,658 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-12-29 17:54:59,303 middlewares Endpoint: /admin/authtoken/tokenproxy/, Method: GET, Response Status: 200, Duration: 0.14s
+INFO 2024-12-29 17:54:59,307 basehttp "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 11183
+INFO 2024-12-29 17:54:59,388 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-12-29 17:54:59,417 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-12-29 17:55:07,757 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-12-29 17:55:07,758 log Not Found: /api
+WARNING 2024-12-29 17:55:07,760 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 17:59:10,118 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 17:59:11,863 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 17:59:14,072 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 17:59:14,074 log Not Found: /api
+WARNING 2024-12-29 17:59:14,075 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 17:59:53,785 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\investment_job.py changed, reloading.
+INFO 2024-12-29 17:59:55,354 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:00:17,515 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:00:19,426 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:01:16,518 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:01:18,223 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:01:23,303 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:01:23,309 log Not Found: /api
+WARNING 2024-12-29 18:01:23,313 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:01:33,745 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-12-29 18:01:33,751 log Not Found: /api
+WARNING 2024-12-29 18:01:33,754 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:01:36,689 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-12-29 18:01:36,692 log Not Found: /api
+WARNING 2024-12-29 18:01:36,693 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:01:38,248 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-12-29 18:01:38,249 log Not Found: /api
+WARNING 2024-12-29 18:01:38,251 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:01:38,680 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-12-29 18:01:38,683 log Not Found: /api
+WARNING 2024-12-29 18:01:38,684 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:01:38,874 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:01:38,874 log Not Found: /api
+WARNING 2024-12-29 18:01:38,877 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:01:39,035 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-12-29 18:01:39,035 log Not Found: /api
+WARNING 2024-12-29 18:01:39,035 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:01:39,185 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:01:39,185 log Not Found: /api
+WARNING 2024-12-29 18:01:39,185 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:01:45,874 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:01:47,197 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:01:52,634 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 18:01:52,635 log Not Found: /api
+WARNING 2024-12-29 18:01:52,635 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:02:03,507 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-12-29 18:02:03,513 log Not Found: /api
+WARNING 2024-12-29 18:02:03,515 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:02:04,943 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.01s
+WARNING 2024-12-29 18:02:04,944 log Not Found: /api
+WARNING 2024-12-29 18:02:04,944 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:02:09,983 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:02:11,574 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:02:13,961 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 18:02:13,965 log Not Found: /api
+WARNING 2024-12-29 18:02:13,965 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:02:17,088 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.00s
+WARNING 2024-12-29 18:02:17,090 log Not Found: /api
+WARNING 2024-12-29 18:02:17,092 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:09:50,689 autoreload C:\Users\Metatask\Documents\backend\base\models.py changed, reloading.
+INFO 2024-12-29 18:09:52,231 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:11:49,468 autoreload C:\Users\Metatask\Documents\backend\base\models.py changed, reloading.
+INFO 2024-12-29 18:11:50,767 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:13:04,444 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:13:05,818 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:13:29,539 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:13:31,060 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:14:36,239 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:14:37,560 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:15:13,250 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:15:14,466 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:15:32,349 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:15:32,350 log Not Found: /api
+WARNING 2024-12-29 18:15:32,352 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:16:10,510 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:16:15,903 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:16:15,903 log Not Found: /api
+WARNING 2024-12-29 18:16:15,903 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:16:24,724 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:16:26,068 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:16:29,306 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.05s
+WARNING 2024-12-29 18:16:29,306 log Not Found: /api
+WARNING 2024-12-29 18:16:29,306 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:16:32,622 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:16:32,624 log Not Found: /api
+WARNING 2024-12-29 18:16:32,626 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:16:33,606 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:16:33,607 log Not Found: /api
+WARNING 2024-12-29 18:16:33,609 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:16:33,909 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:16:33,909 log Not Found: /api
+WARNING 2024-12-29 18:16:33,909 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:16:34,106 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:16:34,107 log Not Found: /api
+WARNING 2024-12-29 18:16:34,107 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:16:37,927 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:16:39,397 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:16:40,035 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 18:16:40,037 log Not Found: /api
+WARNING 2024-12-29 18:16:40,038 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:17:24,719 middlewares Endpoint: /admin/, Method: GET, Response Status: 200, Duration: 0.12s
+INFO 2024-12-29 18:17:24,719 basehttp "GET /admin/ HTTP/1.1" 200 10965
+INFO 2024-12-29 18:17:38,141 autoreload C:\Users\Metatask\Documents\backend\base\models.py changed, reloading.
+INFO 2024-12-29 18:17:39,551 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:17:57,663 autoreload C:\Users\Metatask\Documents\backend\base\admin.py changed, reloading.
+INFO 2024-12-29 18:17:59,018 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:18:01,050 middlewares Endpoint: /admin/, Method: GET, Response Status: 200, Duration: 0.12s
+INFO 2024-12-29 18:18:01,050 basehttp "GET /admin/ HTTP/1.1" 200 11625
+INFO 2024-12-29 18:18:04,222 middlewares Endpoint: /admin/base/systemstate/, Method: GET, Response Status: 200, Duration: 0.13s
+INFO 2024-12-29 18:18:04,222 basehttp "GET /admin/base/systemstate/ HTTP/1.1" 200 12511
+INFO 2024-12-29 18:18:04,304 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-29 18:18:04,306 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-12-29 18:18:06,518 middlewares Endpoint: /admin/base/systemstate/1/change/, Method: GET, Response Status: 200, Duration: 0.18s
+INFO 2024-12-29 18:18:06,520 basehttp "GET /admin/base/systemstate/1/change/ HTTP/1.1" 200 13135
+INFO 2024-12-29 18:18:06,569 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-29 18:18:06,572 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-12-29 18:18:07,328 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-12-29 18:18:07,334 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-12-29 18:18:07,380 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-12-29 18:18:14,804 middlewares Endpoint: /admin/base/systemstate/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-29 18:18:14,804 basehttp "GET /admin/base/systemstate/ HTTP/1.1" 200 12511
+INFO 2024-12-29 18:19:31,507 autoreload C:\Users\Metatask\Documents\backend\base\models.py changed, reloading.
+INFO 2024-12-29 18:19:32,745 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:20:41,807 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:20:43,222 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:20:48,330 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:20:49,604 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:21:02,453 autoreload C:\Users\Metatask\Documents\backend\admins\api\urls.py changed, reloading.
+INFO 2024-12-29 18:21:03,658 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:24:27,850 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\investment_job.py changed, reloading.
+INFO 2024-12-29 18:24:29,061 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:24:43,995 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:24:45,215 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:25:01,126 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:25:02,347 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:33:04,819 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:33:06,039 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:33:27,579 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:33:28,786 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:36:11,271 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:37:21,028 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:37:30,298 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:37:31,603 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:37:34,512 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:37:35,816 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:37:44,025 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:37:45,249 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:38:12,903 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:39:00,787 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:43:14,534 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:44:16,827 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:49:26,346 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:49:27,803 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:49:36,396 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:49:37,658 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:49:44,809 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:49:46,194 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:50:02,153 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:50:03,683 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:50:05,749 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 18:50:05,749 log Not Found: /api
+WARNING 2024-12-29 18:50:05,749 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:50:12,534 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 18:50:12,534 log Not Found: /api
+WARNING 2024-12-29 18:50:12,534 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:50:45,021 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:50:46,309 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:51:10,438 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.10s
+WARNING 2024-12-29 18:51:10,453 log Not Found: /api
+WARNING 2024-12-29 18:51:10,453 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:51:30,965 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:51:32,376 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:51:33,896 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:51:33,896 log Not Found: /api
+WARNING 2024-12-29 18:51:33,896 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:51:58,387 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:51:59,808 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:52:08,404 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:52:09,893 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:52:12,200 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:52:12,202 log Not Found: /api
+WARNING 2024-12-29 18:52:12,204 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:52:19,635 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:52:20,877 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:52:23,248 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 18:52:23,248 log Not Found: /api
+WARNING 2024-12-29 18:52:23,248 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:53:04,541 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:53:05,988 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:53:06,938 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 18:53:06,938 log Not Found: /api
+WARNING 2024-12-29 18:53:06,938 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:53:16,522 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:53:17,961 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:53:18,581 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.05s
+WARNING 2024-12-29 18:53:18,582 log Not Found: /api
+WARNING 2024-12-29 18:53:18,584 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:53:29,606 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:53:31,064 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:53:32,082 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.04s
+WARNING 2024-12-29 18:53:32,097 log Not Found: /api
+WARNING 2024-12-29 18:53:32,099 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:53:39,368 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:53:40,788 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:53:41,871 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 18:53:41,871 log Not Found: /api
+WARNING 2024-12-29 18:53:41,871 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:53:48,114 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:53:49,523 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:53:50,815 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.05s
+WARNING 2024-12-29 18:53:50,817 log Not Found: /api
+WARNING 2024-12-29 18:53:50,818 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:54:10,091 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:54:11,640 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:54:12,926 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.04s
+WARNING 2024-12-29 18:54:12,926 log Not Found: /api
+WARNING 2024-12-29 18:54:12,936 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:54:18,948 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:54:20,417 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:54:21,654 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.04s
+WARNING 2024-12-29 18:54:21,654 log Not Found: /api
+WARNING 2024-12-29 18:54:21,654 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:54:40,611 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:54:42,030 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:54:43,426 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.05s
+WARNING 2024-12-29 18:54:43,427 log Not Found: /api
+WARNING 2024-12-29 18:54:43,427 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:55:02,547 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:55:03,950 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:55:05,039 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.03s
+WARNING 2024-12-29 18:55:05,039 log Not Found: /api
+WARNING 2024-12-29 18:55:05,039 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:55:11,199 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:55:12,389 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:55:22,751 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:55:24,067 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:55:27,617 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.05s
+WARNING 2024-12-29 18:55:27,617 log Not Found: /api
+WARNING 2024-12-29 18:55:27,617 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:55:55,522 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:55:56,947 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:55:58,113 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.04s
+WARNING 2024-12-29 18:55:58,114 log Not Found: /api
+WARNING 2024-12-29 18:55:58,116 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:56:35,926 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:56:37,321 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:56:39,769 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.04s
+WARNING 2024-12-29 18:56:39,769 log Not Found: /api
+WARNING 2024-12-29 18:56:39,769 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:57:06,497 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 18:57:07,908 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:57:09,707 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.05s
+WARNING 2024-12-29 18:57:09,709 log Not Found: /api
+WARNING 2024-12-29 18:57:09,710 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:58:10,946 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:58:12,328 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:58:14,275 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.06s
+WARNING 2024-12-29 18:58:14,275 log Not Found: /api
+WARNING 2024-12-29 18:58:14,275 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:58:36,359 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:58:37,574 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:58:39,722 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.05s
+WARNING 2024-12-29 18:58:39,723 log Not Found: /api
+WARNING 2024-12-29 18:58:39,723 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:58:57,095 autoreload C:\Users\Metatask\Documents\backend\base\api\jobs\user_job.py changed, reloading.
+INFO 2024-12-29 18:58:58,627 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:59:00,798 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.05s
+WARNING 2024-12-29 18:59:00,799 log Not Found: /api
+WARNING 2024-12-29 18:59:00,801 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:59:29,260 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 18:59:30,623 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 18:59:32,703 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.02s
+WARNING 2024-12-29 18:59:32,704 log Not Found: /api
+WARNING 2024-12-29 18:59:32,706 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 18:59:39,412 middlewares Endpoint: /api, Method: GET, Response Status: 404, Duration: 0.00s
+WARNING 2024-12-29 18:59:39,424 log Not Found: /api
+WARNING 2024-12-29 18:59:39,424 basehttp "GET /api HTTP/1.1" 404 2318
+INFO 2024-12-29 19:00:16,649 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 19:00:18,064 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 19:00:21,129 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 19:00:22,605 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 19:01:11,024 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
+INFO 2024-12-29 19:01:12,426 autoreload Watching for file changes with StatReloader
