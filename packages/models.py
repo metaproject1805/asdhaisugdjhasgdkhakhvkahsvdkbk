@@ -43,51 +43,51 @@ class Packages(models.Model):
   def investment_manager(self):
     
     if self.level == "Level 1":
-      self.earning_per_task = 0.65
-      self.daily_earning = 1.3
+      self.earning_per_task = 0.6500
+      self.daily_earning = 1.3000
       self.days_remaining = 90
       self.max_number_of_task = 2
       self.layer = 1
     if self.level == "Level 2":
-      self.earning_per_task = 0.675
-      self.daily_earning = 2.7
+      self.earning_per_task = 0.6750
+      self.daily_earning = 2.7000
       self.days_remaining = 90
       self.max_number_of_task = 4
       self.layer = 2
     elif self.level == "Level 3":
-      self.earning_per_task = 0.78
-      self.daily_earning = 3.9
+      self.earning_per_task = 0.7800
+      self.daily_earning = 3.9000
       self.days_remaining = 90
       self.max_number_of_task = 5
       self.layer = 3
     elif self.level == "Level 4":
-      self.earning_per_task = 1
-      self.daily_earning = 8
+      self.earning_per_task = 1.0000
+      self.daily_earning = 8.0000
       self.days_remaining = 90
       self.max_number_of_task = 8
       self.layer = 4
     elif self.level == "Level 5":
-      self.earning_per_task = 1.125
-      self.daily_earning = 13.50
+      self.earning_per_task = 1.1250
+      self.daily_earning = 13.5000
       self.days_remaining = 90
       self.max_number_of_task = 12
       self.layer = 5
     elif self.level == "Level 6":
       self.earning_per_task = 2.0385
-      self.daily_earning = 26.50
+      self.daily_earning = 26.5005
       self.days_remaining = 90
       self.layer = 6
     elif self.level == "Level 7":
-      self.earning_per_task = 2
-      self.daily_earning = 40
-      self.days_remaining = 90
-      self.max_number_of_task = 13
-      self.layer = 7
-    elif self.level == "Level 8":
-      self.earning_per_task = 2.12
-      self.daily_earning = 53
+      self.earning_per_task = 2.0000
+      self.daily_earning = 40.0000
       self.days_remaining = 90
       self.max_number_of_task = 20
+      self.layer = 7
+    elif self.level == "Level 8":
+      self.earning_per_task = 2.1200
+      self.daily_earning = 53.0000
+      self.days_remaining = 90
+      self.max_number_of_task = 25
       self.layer = 8
     # elif self.level == "Level 8":
     #   self.earning_per_task = 5.00
