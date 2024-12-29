@@ -14,3 +14,4 @@ cloudinary
 django-cleanup
 django-mysql
 mysqlclient
+psycopg2-binary
