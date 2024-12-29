@@ -35,9 +35,9 @@ class Packages(models.Model):
   is_withdrawable = models.BooleanField(default= False)
   layer = models.IntegerField(default=0)
   
-  @property
-  def max_number_of_task(self):
-    return round(self.daily_earning/self.earning_per_task, 2)
+  # @property
+  # def max_number_of_task(self):
+  #   return round(self.daily_earning/self.earning_per_task, 2)
   
   def investment_manager(self):
     
@@ -45,26 +45,31 @@ class Packages(models.Model):
       self.earning_per_task = 0.65
       self.daily_earning = 1.3
       self.days_remaining = 90
+      self.max_number_of_task = 2
       self.layer = 1
     if self.level == "Level 2":
       self.earning_per_task = 0.675
       self.daily_earning = 2.7
       self.days_remaining = 90
+      self.max_number_of_task = 4
       self.layer = 2
     elif self.level == "Level 3":
       self.earning_per_task = 0.78
       self.daily_earning = 3.9
       self.days_remaining = 90
+      self.max_number_of_task = 5
       self.layer = 3
     elif self.level == "Level 4":
       self.earning_per_task = 1
       self.daily_earning = 8
       self.days_remaining = 90
+      self.max_number_of_task = 8
       self.layer = 4
     elif self.level == "Level 5":
       self.earning_per_task = 1.125
       self.daily_earning = 13.5
       self.days_remaining = 90
+      self.max_number_of_task = 12
       self.layer = 5
     elif self.level == "Level 6":
       self.earning_per_task = 2.0385
@@ -75,11 +80,13 @@ class Packages(models.Model):
       self.earning_per_task = 2
       self.daily_earning = 40
       self.days_remaining = 90
+      self.max_number_of_task = 13
       self.layer = 7
     elif self.level == "Level 8":
       self.earning_per_task = 2.12
       self.daily_earning = 53
       self.days_remaining = 90
+      self.max_number_of_task = 20
       self.layer = 8
     # elif self.level == "Level 8":
     #   self.earning_per_task = 5.00
