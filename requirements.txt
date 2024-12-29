@@ -12,3 +12,5 @@ psycopg2
 setuptools
 cloudinary
 django-cleanup
+django-mysql
+mysqlclient
