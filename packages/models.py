@@ -24,12 +24,12 @@ class Packages(models.Model):
   ]
   level = models.CharField(choices=LEVEL_CHOICES, max_length=20)
   payment_status = models.CharField(max_length=20, choices=PAYMENT_STATUS_CHOICES, default="Pending")
-  earning_per_task = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+  earning_per_task = models.DecimalField(max_digits=10, decimal_places=4, default=0.0000)
   payment_slip = CloudinaryField('image', validators=[file_validation], null=True)
   wallet_email = models.EmailField(null=True, blank=True)
   wallet_id = models.CharField(max_length=200, null=True, blank=True)
   price = models.IntegerField()
-  daily_earning = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+  daily_earning = models.DecimalField(max_digits=10, decimal_places=4, default=0.0000)
   days_remaining =  models.IntegerField(default=0)
   max_number_of_task =  models.IntegerField(default=0)
   max_upgrade = models.BooleanField(default=False)
@@ -68,13 +68,13 @@ class Packages(models.Model):
       self.layer = 4
     elif self.level == "Level 5":
       self.earning_per_task = 1.125
-      self.daily_earning = 13.5
+      self.daily_earning = 13.50
       self.days_remaining = 90
       self.max_number_of_task = 12
       self.layer = 5
     elif self.level == "Level 6":
       self.earning_per_task = 2.0385
-      self.daily_earning = 26.5005
+      self.daily_earning = 26.50
       self.days_remaining = 90
       self.layer = 6
     elif self.level == "Level 7":
