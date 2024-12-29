@@ -914,3 +914,6 @@ INFO 2024-12-29 09:54:16,273 middlewares Endpoint: /admin/packages/packages/2/ch
 INFO 2024-12-29 09:54:16,276 basehttp "GET /admin/packages/packages/2/change/ HTTP/1.1" 200 15853
 INFO 2024-12-29 09:54:16,327 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
 INFO 2024-12-29 09:54:16,329 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-12-29 09:56:19,834 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 09:56:32,971 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 09:56:34,987 autoreload Watching for file changes with StatReloader
