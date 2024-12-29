@@ -31,6 +31,7 @@ class Packages(models.Model):
   price = models.IntegerField()
   daily_earning = models.IntegerField(default=0)
   days_remaining =  models.IntegerField(default=0)
+  max_number_of_task =  models.IntegerField(default=0)
   max_upgrade = models.BooleanField(default=False)
   is_withdrawable = models.BooleanField(default= False)
   layer = models.IntegerField(default=0)
