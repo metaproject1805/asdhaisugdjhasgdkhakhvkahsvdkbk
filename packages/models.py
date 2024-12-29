@@ -29,7 +29,7 @@ class Packages(models.Model):
   wallet_email = models.EmailField(null=True, blank=True)
   wallet_id = models.CharField(max_length=200, null=True, blank=True)
   price = models.IntegerField()
-  daily_earning = models.IntegerField(default=0)
+  daily_earning = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
   days_remaining =  models.IntegerField(default=0)
   max_number_of_task =  models.IntegerField(default=0)
   max_upgrade = models.BooleanField(default=False)

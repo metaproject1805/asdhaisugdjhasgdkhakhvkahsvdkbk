@@ -35,24 +35,19 @@ ALLOWED_HOSTS = [
     "metatask.ibgyzs.easypanel.host", 
     "www.metatask.ibgyzs.easypanel.host", 
     "metatask-backend.ibgyzs.easypanel.host",
-    "metatask-bkend.ibgyzs.easypanel.host",
-    "www.metatask-bkend.ibgyzs.easypanel.host",
     "www.metatask-backend.ibgyzs.easypanel.host",
-    "localhost"
     ]
 
 
 CORS_ALLOWED_ORIGINS = [
     "https://metatask.ibgyzs.easypanel.host",
     "https://metatask-backend.ibgyzs.easypanel.host",
-    "https://metatask-bkend.ibgyzs.easypanel.host",
 ]
 
 # CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'https://metatask-backend.ibgyzs.easypanel.host',
-    "https://metatask-bkend.ibgyzs.easypanel.host",
 ]
 
 
