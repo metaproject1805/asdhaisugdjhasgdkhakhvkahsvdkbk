@@ -1,0 +1,11 @@
+INFO 2024-12-29 10:25:00,413 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 10:25:18,367 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 10:25:19,872 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 10:25:24,397 middlewares Endpoint: /admin/packages/packages/2/change/, Method: GET, Response Status: 200, Duration: 0.20s
+INFO 2024-12-29 10:25:24,400 basehttp "GET /admin/packages/packages/2/change/ HTTP/1.1" 200 15853
+INFO 2024-12-29 10:25:24,458 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-29 10:25:24,462 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3325
+INFO 2024-12-29 10:50:19,892 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 10:51:34,463 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-29 10:51:36,446 autoreload Watching for file changes with StatReloader
+INFO 2024-12-29 11:11:14,855 autoreload Watching for file changes with StatReloader

@@ -1,17 +1,11 @@
 whitenoise
-schedule
 gunicorn
-PyMySQL
 Django
 djangorestframework
 djangorestframework-simplejwt
-dj-database-url
 django-cors-headers
 Pillow
 psycopg2
 setuptools
 cloudinary
 django-cleanup
-django-mysql
-mysqlclient
-psycopg2-binary
