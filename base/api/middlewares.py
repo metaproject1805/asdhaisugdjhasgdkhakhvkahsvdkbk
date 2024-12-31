@@ -51,9 +51,7 @@ class DailyRunMiddleware:
 
     def __call__(self, request):
         logger = logging.getLogger('daily_task')
-        # Check if DEBUG is False
-        print("middleware initiated")
-        
+        # Check if DEBUG is False        
         system_state, created = SystemState.objects.get_or_create(key="daily_task")
 
         today = date.today()
@@ -63,7 +61,6 @@ class DailyRunMiddleware:
             try:
                 accumulate_investment() 
                 daily_profile_update()
-                print("middleware run")
             
                 system_state.last_run_date = today
                 system_state.save()
