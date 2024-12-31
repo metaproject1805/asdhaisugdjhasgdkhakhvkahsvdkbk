@@ -13,6 +13,6 @@ urlpatterns = [
     path("inactive-user/", InactiveUserView.as_view(), name="inactive_users_view"),
     path("pending-user/", PendingUserView.as_view(), name="pending_users_view"),
     path("pending-investment-user/", PendingInvestmentUserView.as_view(), name="pending_investment_users_view"),
-    path("daily-investment-update", DailyInvestmentUpdate.as_view(), name="daily_investment_update"),
-    path("daily-user-update", DailyUserUpdate.as_view(), name="daily_user_update"),
+    # path("daily-investment-update", DailyInvestmentUpdate.as_view(), name="daily_investment_update"),
+    # path("daily-user-update", DailyUserUpdate.as_view(), name="daily_user_update"),
 ]

@@ -52,25 +52,26 @@ class DailyRunMiddleware:
     def __call__(self, request):
         logger = logging.getLogger('daily_task')
         # Check if DEBUG is False
-        if not settings.DEBUG:
+        print("middleware initiated")
+        
+        system_state, created = SystemState.objects.get_or_create(key="daily_task")
+
+        today = date.today()
+
+        # Check if the task has already run today
+        if system_state.last_run_date != today:
+            try:
+                accumulate_investment() 
+                daily_profile_update()
+                print("middleware run")
             
-            system_state, created = SystemState.objects.get_or_create(key="daily_task")
-
-            today = date.today()
-
-            # Check if the task has already run today
-            if system_state.last_run_date != today:
-                try:
-                    accumulate_investment() 
-                    daily_profile_update()
-                
-                    system_state.last_run_date = today
-                    system_state.save()
-                    logger.info("Daily task completed successfully.")
-                except Exception as e:
-                    logger.info(f"Daily task failed: {e}")
-                    system_state.last_run_date = today
-                    system_state.save()
+                system_state.last_run_date = today
+                system_state.save()
+                logger.info("Daily task completed successfully.")
+            except Exception as e:
+                logger.info(f"Daily task failed: {e}")
+                system_state.last_run_date = today
+                system_state.save()
 
         response = self.get_response(request)
 
