@@ -314,3 +314,31 @@ INFO 2024-12-29 19:00:21,129 autoreload C:\Users\Metatask\Documents\backend\base
 INFO 2024-12-29 19:00:22,605 autoreload Watching for file changes with StatReloader
 INFO 2024-12-29 19:01:11,024 autoreload C:\Users\Metatask\Documents\backend\base\api\middlewares.py changed, reloading.
 INFO 2024-12-29 19:01:12,426 autoreload Watching for file changes with StatReloader
+INFO 2024-12-31 03:52:26,221 autoreload Watching for file changes with StatReloader
+INFO 2024-12-31 03:53:07,785 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-31 03:53:08,985 autoreload Watching for file changes with StatReloader
+INFO 2024-12-31 03:53:17,043 middlewares Endpoint: /admin/tasks/task/add/, Method: GET, Response Status: 200, Duration: 0.29s
+INFO 2024-12-31 03:53:17,043 basehttp "GET /admin/tasks/task/add/ HTTP/1.1" 200 14262
+INFO 2024-12-31 03:53:17,130 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-12-31 03:53:17,153 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.02s
+INFO 2024-12-31 03:53:17,171 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-12-31 03:53:17,177 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-12-31 03:53:17,647 middlewares Endpoint: /favicon.ico, Method: GET, Response Status: 404, Duration: 0.33s
+WARNING 2024-12-31 03:53:17,658 log Not Found: /favicon.ico
+WARNING 2024-12-31 03:53:17,658 basehttp "GET /favicon.ico HTTP/1.1" 404 2342
+INFO 2024-12-31 03:53:19,848 middlewares Endpoint: /admin/base/systemstate/, Method: GET, Response Status: 200, Duration: 0.12s
+INFO 2024-12-31 03:53:19,850 basehttp "GET /admin/base/systemstate/ HTTP/1.1" 200 12511
+INFO 2024-12-31 03:53:19,892 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-12-31 03:53:19,896 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-31 03:53:19,898 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-12-31 03:53:21,246 middlewares Endpoint: /admin/base/systemstate/1/change/, Method: GET, Response Status: 200, Duration: 0.06s
+INFO 2024-12-31 03:53:21,247 basehttp "GET /admin/base/systemstate/1/change/ HTTP/1.1" 200 13135
+INFO 2024-12-31 03:53:21,289 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2024-12-31 03:53:21,292 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2024-12-31 03:53:21,298 middlewares Endpoint: /admin/jsi18n/, Method: GET, Response Status: 200, Duration: 0.01s
+INFO 2024-12-31 03:53:21,300 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-12-31 03:53:21,340 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2024-12-31 03:55:13,184 autoreload C:\Users\Metatask\Documents\backend\metatask\settings.py changed, reloading.
+INFO 2024-12-31 03:55:14,418 autoreload Watching for file changes with StatReloader
+INFO 2024-12-31 03:55:32,392 autoreload C:\Users\Metatask\Documents\backend\admins\api\urls.py changed, reloading.
+INFO 2024-12-31 03:55:33,746 autoreload Watching for file changes with StatReloader
